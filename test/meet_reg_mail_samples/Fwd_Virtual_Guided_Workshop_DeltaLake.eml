@@ -1,0 +1,492 @@
+Return-Path: <094-YMS-629.0.38882.0.0.28815.9.12270300@potomac1050.mktomail.com>
+Delivered-To: appanponn@whatsbrew.in
+Received: from us2.mx.mailhostbox.com ([172.16.214.44])
+	by mss21.mailhostbox.aus-tx.colo (Dovecot) with LMTP id OVp5HHx/yF/7agAAXVWb9Q
+	for <appanponn@whatsbrew.in>; Thu, 03 Dec 2020 06:02:36 +0000
+Received-SPF: Pass (sender SPF authorized) identity=mailfrom; client-ip=199.15.213.51; helo=potomac1051.mktomail.com; envelope-from=094-yms-629.0.38882.0.0.28815.9.12270300@potomac1050.mktomail.com; receiver=appanponn@whatsbrew.in 
+Authentication-Results: us2.mx.mailhostbox.com;
+	dkim=pass (1024-bit key; unprotected) header.d=databricks.com header.i=@databricks.com header.b="MPmEUCGq";
+	dkim=pass (1024-bit key; unprotected) header.d=mktomail.com header.i=@mktomail.com header.b="c7UhcFVK";
+	dkim-atps=neutral
+Received: from potomac1051.mktomail.com (potomac1051.mktomail.com [199.15.213.51])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by us2.mx.mailhostbox.com (Postfix) with ESMTPS id 0F8B01404FF
+	for <appanponn@whatsbrew.in>; Thu,  3 Dec 2020 06:02:35 +0000 (GMT)
+X-MSFBL: ACs2fbo6mhG7IU6Q1WpbL1XmVfCbFyTohXs3oLqerBU=|eyJiIjoiZHZwLTE5OS0
+	xNS0yMTMtNTAiLCJnIjoiYmctYWItMDEiLCJyIjoiYXBwYW5wb25uQHdoYXRzYnJ
+	ldy5pbiIsInUiOiIwOTQtWU1TLTYyOTowOjIyMDMxOjI1NjA0MDo5NTUwNjU6Mjg
+	4MTU6OTozODg4MjoxMjI3MDMwMCJ9
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1606975302;
+	s=m1; d=databricks.com; i=@databricks.com;
+	h=Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=DgW8tUMOiVIeKJl0iIaT4nckCBVDXiMwrm+DQvwkCCk=;
+	b=MPmEUCGqGRMiXV1LY3XEf5Dx7d3m5PYlxogfgCvF9O7JOcK8c+WyuhQ3X/D4WBuz
+	rLVPY6cwWQa+7rNqzBsNNI6RZgHydCDx0e12dRYcTXJV0MFiFPd8OlFqxfftyuJ5VhE
+	oHzF1LKSbX4fzvypwmb+6j9O0VoRhXtCZzjt83kk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1606975302;
+	s=m1; d=mktomail.com; i=@mktomail.com;
+	h=Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=DgW8tUMOiVIeKJl0iIaT4nckCBVDXiMwrm+DQvwkCCk=;
+	b=c7UhcFVK6E27VQw41OJhiVHRPmaR3r1IP3Cwg/SNDbGYGCDlCiDWYT/tAeY4Dz0P
+	qhbqlDhcTQNLv1Mh8eI9IAQ7+J/B5DFnFR3uon359EzXSEg2zzNgbX0SzDDJehxLxQT
+	a1e2+o1LvI44reeRWffp0PaF29I3IbPeySchAKZk=
+Date: Thu, 3 Dec 2020 00:01:42 -0600 (CST)
+From: Sreeram Nudurupati <apacevents@databricks.com>
+Reply-To: apacevents@databricks.com
+To: appanponn@whatsbrew.in
+Message-ID: <1553399564.273460993.1606975302111@abmktmail-batch1b.marketo.org>
+Subject: Fwd: Virtual Guided Workshop: Building Reliable Data Lakes With
+ Delta Lake
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_273460992_1984039207.1606975302111"
+X-Binding: bg-ab-01
+List-Unsubscribe: <mailto:I5MWQTDGKFCWQVKQJRJGKN2WMVRGETLCJN3T2PI=.38882.28815.9@unsub-ab.mktomail.com>
+X-PVIQ: mkto-094YMS629-000001-000000-038882
+X-MarketoID: 094-YMS-629:0:22031:256040:955065:28815:9:38882:12270300
+X-Mailfrom: 094-YMS-629.0.38882.0.0.28815.9.12270300@potomac1050.mktomail.com
+X-MktArchive: false
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.3 cv=QqUgIm6d c=1 sm=1 tr=0 b=1
+	a=jGf9RHwQ68Xu+jjv1QOH+g==:117 a=jGf9RHwQ68Xu+jjv1QOH+g==:17
+	a=C6dPr--mAAAA:8 a=-zoCSoAUOUUMtDaLDYUA:9 a=QEXdDO2ut3YA:10
+	a=kCWKFZLzuzcA:10 a=SSmOFEACAAAA:8 a=3g80flMcAAAA:8
+	a=iZXf7IAdKO8Aox5S140A:9 a=XKh1VdkuqLywmPPK:21 a=gKO2Hq4RSVkA:10
+	a=frz4AuCg-hUA:10 a=_W_S_7VecoQA:10 a=bDBLaoaKIJyz7sNgAOiS:22
+
+------=_Part_273460992_1984039207.1606975302111
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Wednesday, 9 December 2020 
+<div>1:00 PM - 3:00 PM Singapore</div> <div>10:30 AM - 12:30 PM Mumbai</div>
+<div>Databricks, founded by the original creators of Apache Spark&trade;, has drawn on its extensive customer and data engineering experience to develop Delta Lake, a newly open sourced storage layer that brings reliability to data lakes. Delta Lake runs on top of your existing data lake, is fully compatible with Apache Spark APIs, and provides:</div> <ul> <li>ACID transactions</li> <li>DML commands to update/delete/merge data</li> <li>Scalable metadata handling</li> <li>Unified streaming and batch data processing</li> </ul> <p>In this virtual guided workshop, we&rsquo;ll go over Delta Lake in action and how it can help you build robust production data pipelines at scale. You&rsquo;ll also have an opportunity to discuss with experts any data pipeline concerns you may have. The event is focused on data practitioners interested in taking their data pipelines and data architectures to the next level.</p> 
+ 
+ Register now <https://info.databricks.com/dc/iqoSFi8gRxN3bjGZEDn90EjHxqOFCR2NzPdiA0JFHdXiYZFVHkTHeRmu-zd5U2Fl2qHmuthPyx8RjxyBvFEMV0GuQovj_KnzFAEe9n9dt3bZzxYKDP9F6r2ZoW_f7Qa--oEIXbe-6DOL74scRbIDX3qtRCPj16lRFQL2mRpYMI-go6jvty0O3lV3uwB_rZGU/jujM0N0hY00P404CSoj0T00>!
+
+This email was sent to appanponn@whatsbrew.in. If you no longer wish to receive these emails you may unsubscribe here: https://preferences.databricks.com/?d=1711184d9b4e24310659e1df893f58126a0b40efb6b4ea8d07bbf684d09f8497
+
+------=_Part_273460992_1984039207.1606975302111
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />=
+=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" />=20
+<meta content=3D"telephone=3Dno" name=3D"format-detection" />=20
+<meta content=3D"date=3Dno" name=3D"format-detection" />=20
+<meta content=3D"address=3Dno" name=3D"format-detection" />=20
+<meta content=3D"email=3Dno" name=3D"format-detection" />=20
+<!-- EMAIL SETTINGS -->     =20
+<!-- MODULE SETTINGS -->                       =20
+<!-- BANNER SETTINGS -->    =20
+<!-- COL SETTINGS -->   =20
+<!-- DIVIDER & BORDER SETTINGS -->     =20
+<!-- IMAGE SETTINGS -->          =20
+<!-- TYPOGRAPHY SETTINGS H1-6 + P - Duplicate as needed -->                =
+                                                                           =
+  =20
+<!-- CTA SETTINGS -->                    =20
+<!-- TOGGLES - Example in body of email -->                      =20
+<title>Databricks Inc.</title>=20
+<link href=3D"https://fonts.googleapis.com/css?family=3DBarlow:300,300i,400=
+,600,600i,700,700i&amp;display=3Dswap" rel=3D"stylesheet" />=20
+<style type=3D"text/css">
+    * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: graysc=
+ale;}
+    html, body {margin: 0; padding: 0;}
+    body {margin: 0 auto!important; padding: 0; font-family: Arial, sans-se=
+rif; -webkit-text-size-adjust: 100%!important; -ms-text-size-adjust: 100%!i=
+mportant; -webkit-font-smoothing: antialiased!important;}
+    .mktoText a, .mktoSnippet a, a:link, a:visited {color: #FF3621; text-de=
+coration: none; font-weight:600;}
+    a[x-apple-data-detectors] {color: inherit!important; text-decoration: n=
+one!important; font-size: inherit!important; font-family: inherit!important=
+; font-weight: inherit!important; line-height: inherit!important;}
+    img {border: 0!important; outline: none!important;}
+    table {border-spacing: 0; mso-table-lspace: 0px; mso-table-rspace: 0px;=
+}
+    th {margin: 0; padding: 0;font-weight: normal;}
+    div,td,a,span {mso-line-height-rule: exactly;}
+    ul {margin: 0; padding: 0; padding-left: 20px; margin-left: 20px;}
+    li {margin: 0; padding-top: 0px; margin-top: 0px;}
+    [owa] .col, .col {display: table-cell!important;}
+
+    @media only screen and (max-width:599px) {
+      .mob-center {margin: 0px auto!important; float: none!important;}
+      .mob-full {min-width: 100%!important; width: 100%!important; height: =
+auto!important;}
+      .img-full {width:100%!important; height:auto!important;}
+      .col {display: block!important;}
+      .mob-text-left {text-align: left!important;}
+      .mob-text-center {text-align: center!important;}
+      .mob-text-right {text-align: right!important;}
+      .mob-align-left {margin-right: auto!important; float: none!important;=
+}
+      .mob-align-center {margin: 0 auto!important; float: none!important;}
+      .mob-align-right {margin-left: auto!important; float: none!important;=
+}
+      .mob-hide {display:none!important; visibility: hidden!important;}
+    }
+
+    @media yahoo {
+      * {overflow: visible!important;}
+      .y-overflow-hidden {overflow: hidden!important;}
+    }
+  </style>=20
+<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPer=
+Inch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->=20
+<!--[if (gte mso 9)|(IE)]><style type=3D"text/css">
+    li {text-indent: -1.3em;margin-left: 1.5em !important;}
+    a,p,span,div,td,table,div,.mktoText,.mktoSnippet {font-family:Arial, He=
+lvetica, sans-serif !important;}
+    </style><![endif]-->=20
+</head>=20
+<body class=3D"body" style=3D"background-color:#E9E9E9;"><style type=3D"tex=
+t/css">div#emailPreHeader{ display: none !important; }</style><div id=3D"em=
+ailPreHeader" style=3D"mso-hide:all; visibility:hidden; opacity:0; color:tr=
+ansparent; mso-line-height-rule:exactly; line-height:0; font-size:0px; over=
+flow:hidden; border-width:0; display:none !important;">We=E2=80=99re holdin=
+g a AWS | Databricks ML Dev Day Virtual Workshop to cover best practices on=
+ how to simplify and scale your data and machine learning efforts with Apac=
+he Spark and Amazon SageMaker. We=E2=80=99ll also jump into a live demo on =
+how to build data pipelines and train models. Bring your team and your ques=
+tions! I've included the registration info below.</div>=20
+<div style=3D"background-color:#ffffff !important; padding:20px 20px !impor=
+tant; font-family:Arial, Helvetica, sans-serif !important;">
+ Hi Appan,=20
+<br />=20
+<br /> We=E2=80=99re holding a virtual guided workshop next week to cover h=
+ow open source Delta Lake can help you build reliable data lakes. In additi=
+on to providing a Delta Lake overview and sharing real-world customer use c=
+ases, we=E2=80=99ll provide a step-by-step Delta Lake tutorial. Bring your =
+team and ask our experts your data engineering questions. I=E2=80=99ve incl=
+uded the registration info below.=20
+<br />=20
+<br /> Hope to see you there!=20
+<br />=20
+<br /> Sreeram Nudurupati=20
+<br />=20
+<br /> ---------- Forwarded message ---------=20
+<br /> From:  Databricks APAC Team=20
+<br /> Date: Tue, Nov 13, 2020 at 11:04 AM=20
+<br /> Subject: Virtual Guided Workshop: Building Reliable Data Lakes With =
+Delta Lake=20
+<br /> To: Sreeram Nudurupati=20
+</div>=20
+<div style=3D"background-color:#E9E9E9; table-layout: fixed; -webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; width:100%; vertical-align:top;=
+">=20
+<table class=3D"mob-full mktoContainer" id=3D"mainTable" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"width:600px; overflow:visible; marg=
+in:0 auto; vertical-align:middle;" valign=3D"middle" align=3D"center">
+<tr class=3D"mktoModule" id=3D"image-abd76036f-6dba-44fc-a071-0acb88e016dd"=
+>=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:0px; padding-right:0px; padding-top:0px; padding-=
+bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"image-a.imgbd76036f-6dba-44fc-a071-0acb88e016d=
+d" mktolockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/dc/iqoSFi8gRxN3bjGZEDn90EjHxqOFCR2NzPdiA0JFHdX=
+iYZFVHkTHeRmu-zd5U2Fl2qHmuthPyx8RjxyBvFEMV0GuQovj_KnzFAEe9n9dt3ZcS0fOiyV5DZ=
+0oeC4vNKrBFOgMvclyFGQ5_xOWykdRPs2tMkNUoCJsB15i-W7znxfRvmKi5hquncdETrG4A1nv/=
+jujM0N0hY00P404CSoj0T00" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/2020-11-Gui=
+ded-workshop--Building-Reliable-Data-Lakes-With-Delta-Lake-Email-Header.jpg=
+" width=3D"600" alt=3D"" class=3D"img-full" style=3D"display:block;" /></a>=
+=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"date-time-ac74655dd-f696-42c1-896f-8199cc15b=
+ac3">=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:20px; paddi=
+ng-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center">=20
+<table class=3D"mob-full" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=
+=20
+<tbody>=20
+<tr>=20
+<td style=3D"width:200px; vertical-align:top;" valign=3D"top">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%; direction:ltr;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<!--[if IE | mso]><!-- -->=20
+<tbody>=20
+<tr style=3D"display:noneIE | important;">=20
+<td style=3D"height:60px; padding-left:10px;">=20
+<center>=20
+<img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_c=
+al.png" alt=3D"Date" width=3D"50" style=3D"display:block; max-width:100%; h=
+eight:auto;" border=3D"0" />=20
+</center>=20
+<div style=3D"line-height:10px; height:10px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+<!--[if IE | mso]><!-- -->=20
+<tr style=3D"display:noneIE | important;">=20
+<td>=20
+<div class=3D"mktoText" id=3D"date-time-a.datec74655dd-f696-42c1-896f-8199c=
+c15bac3" style=3D"font-family:'Barlow', Arial, Helvetica, sans-serif; font-=
+size:14px; line-height:18px; font-weight:normal; text-align:center; color:#=
+000000;">
+ Wednesday, 9 December 2020 =20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+<td style=3D"width:20px; min-width:20px; font-size:0px; vertical-align:top;=
+" valign=3D"top">&nbsp;</td>=20
+<td style=3D"width:1px; min-width:1px; vertical-align:top; background-color=
+:#E0E0E0;" valign=3D"top">=20
+<div style=3D"line-height:1px; height:1px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+<td style=3D"width:20px; min-width:20px; font-size:0px; vertical-align:top;=
+" valign=3D"top">&nbsp;</td>=20
+<td style=3D"width:200px; vertical-align:top;" valign=3D"top">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%; direction:ltr;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<!--[if IE | mso]><!-- -->=20
+<tbody>=20
+<tr style=3D"display:noneIE | important;">=20
+<td style=3D"height:60px;">=20
+<center>=20
+<img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_t=
+ime.png" alt=3D"Time" width=3D"50" style=3D"display:block; max-width:100%; =
+height:auto;" border=3D"0" />=20
+</center>=20
+<div style=3D"line-height:10px; height:10px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+<!--[if IE | mso]><!-- -->=20
+<tr style=3D"display:noneIE | important;">=20
+<td>=20
+<div class=3D"mktoText" id=3D"date-time-a.timec74655dd-f696-42c1-896f-8199c=
+c15bac3" style=3D"font-family:'Barlow', Arial, Helvetica, sans-serif; font-=
+size:14px; line-height:18px; font-weight:normal; text-align:center; color:#=
+000000;">
+ <div>1:00 PM - 3:00 PM Singapore</div> <div>10:30 AM - 12:30 PM Mumbai</di=
+v>=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"paragraph7655089f-935a-475c-ac83-a6acf4bc667=
+2">=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:0px; paddin=
+g-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoText mob-text-left" id=3D"paragraph.p7655089f-935a-475c-a=
+c83-a6acf4bc6672" style=3D"font-family:'Barlow', Arial, Helvetica, sans-ser=
+if; font-size:14px; line-height:18px; font-weight:normal; text-align:left; =
+color:#000000;">=20
+<p><div>Databricks, founded by the original creators of Apache Spark&trade;=
+, has drawn on its extensive customer and data engineering experience to de=
+velop Delta Lake, a newly open sourced storage layer that brings reliabilit=
+y to data lakes. Delta Lake runs on top of your existing data lake, is full=
+y compatible with Apache Spark APIs, and provides:</div> <ul> <li>ACID tran=
+sactions</li> <li>DML commands to update/delete/merge data</li> <li>Scalabl=
+e metadata handling</li> <li>Unified streaming and batch data processing</l=
+i> </ul> <p>In this virtual guided workshop, we&rsquo;ll go over Delta Lake=
+ in action and how it can help you build robust production data pipelines a=
+t scale. You&rsquo;ll also have an opportunity to discuss with experts any =
+data pipeline concerns you may have. The event is focused on data practitio=
+ners interested in taking their data pipelines and data architectures to th=
+e next level.</p></p>=20
+<div></div>=20
+<div>=20
+<a href=3D
+"https://info.databricks.com/dc/iqoSFi8gRxN3bjGZEDn90EjHxqOFCR2NzPdiA0JFHdX=
+iYZFVHkTHeRmu-zd5U2Fl2qHmuthPyx8RjxyBvFEMV0GuQovj_KnzFAEe9n9dt3ZcS0fOiyV5DZ=
+0oeC4vNKrBFOgMvclyFGQ5_xOWykdRPs2tMkNUoCJsB15i-W7znxfRvmKi5hquncdETrG4A1nv/=
+jujM0N0hY00P404CSoj0T00" target=3D"_blank"
+>Register now</a>!=20
+</div>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"footer-a">=20
+<td style=3D"background-color:#E9E9E9;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:20px; paddi=
+ng-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<!--[if IE | mso]><!-- -->=20
+<tbody>=20
+<tr style=3D"display:noneIE | important;">=20
+<td align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"footer-a.social-1" mktolockimgsize=3D"true" mk=
+tolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/P000C0oYhM04kP0T04kSNu0" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_=
+twitter.png" width=3D"28" alt=3D"Twitter" style=3D"display:block;" /></a>=
+=20
+</div> </td>=20
+<td width=3D"8" style=3D"width:8px; min-width:8px; font-size:0px;">&nbsp;</=
+td>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"footer-a.social-2" mktolockimgsize=3D"true" mk=
+tolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/p0P00Y0NlS0u0lCMoh044T0" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_=
+linkedin.png" width=3D"28" alt=3D"LinkedIn" style=3D"display:block;" /></a>=
+=20
+</div> </td>=20
+<td width=3D"8" style=3D"width:8px; min-width:8px; font-size:0px;">&nbsp;</=
+td>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"footer-a.social-3" mktolockimgsize=3D"true" mk=
+tolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/CM400m0mh0TY0Co40u0NS0P" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_=
+facebook.png" width=3D"28" alt=3D"Facebook" style=3D"display:block;" /></a>=
+=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<div style=3D"line-height:20px; height:20px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+<tr>=20
+<td>=20
+<div class=3D"mktoSnippet" id=3D"footer-a.snippet" style=3D"font-family:'Ba=
+rlow', Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; font=
+-weight:normal; text-align:center; color:#000000;">=20
+<strong>Databricks <br /> <a href=3D
+"https://info.databricks.com/BN00nY0SC000P0TM04nh4uo" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none;"
+>160 Spear St 13th floor, San&nbsp;Francisco,&nbsp;CA&nbsp;94105</a> </stro=
+ng>=20
+<br />=20
+<br /> This email was sent to=20
+<a href=3D
+"https://info.databricks.com/dc/0G9PGmVj-9ksTR78TmQfLO2ghW6V9dleLYsSn4k7Khs=
+=3D/jujM0N0hY00P404CSoj0T00" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none; font-weight: normal;"
+>appanponn@whatsbrew.in</a>, if you no longer want to receive emails,=20
+<a href=3D
+"https://info.databricks.com/z0u40oh000PMCoTNY4o0S00"
+>Unsubscribe or Update your email preferences</a>&nbsp;here to choose the t=
+ypes of emails you receive.=20
+<p>=C2=A9 Databricks 2020. All rights reserved. Apache, Apache Spark, Spark=
+ and the&nbsp;<br />Spark logo=20
+<g id=3D"18" data-gr-id=3D"18">
+ are=20
+</g> trademarks of the&nbsp;<a href=3D
+"https://info.databricks.com/ZMCP40Npo0000u04p00hSYT" target=3D"_blank"
+>Apache Software Foundation.</a></p>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+</table>=20
+</div> =20
+
+<img src=3D"https://info.databricks.com/trk?t=3D1&mid=3DMDk0LVlNUy02Mjk6MDo=
+yMjAzMToyNTYwNDA6OTU1MDY1OjI4ODE1Ojk6Mzg4ODI6MTIyNzAzMDA6YXBwYW5wb25uQHdoYX=
+RzYnJldy5pbg%3D%3D" width=3D"1" height=3D"1" style=3D"display:none !importa=
+nt;" alt=3D"" />
+
+<p><font face=3D"Verdana" size=3D"1">This email was sent to appanponn@whats=
+brew.in. If you no longer wish to receive these emails you may <a href=3D
+"https://info.databricks.com/dcu/9ikypgS6EsEi7BGeQXPQLD5yWzD5B1jxPX2QPJIrpW=
+lhrDs4Fy-67cmcIfSDi37_LvI2Pglf5VxA6w43VwWmQ7Ns_zMoJ8gKMZaMQ7xGx10Ag3LXyg64O=
+ryrv6QT_FJHlTj9ZuJqVFAu-2yYdZbKCg=3D=3D/jujM0N0hY00P404CSoj0T00"
+>unsubscribe</a> at any time. </font> </p>
+</body>
+</html>
+------=_Part_273460992_1984039207.1606975302111--

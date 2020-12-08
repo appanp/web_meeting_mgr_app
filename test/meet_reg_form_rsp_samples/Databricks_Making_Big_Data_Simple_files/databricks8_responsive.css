@@ -1,0 +1,67 @@
+@media all and (max-width:1210px) {	
+.em .main{ max-width:100%; padding:0 20px; }
+.em .section1 .section1_content ul, .em .section2 .col-right ul, .em .section3 .sec3_content ul{padding-left:18px;}
+}
+
+@media all and (max-width:991px) {	
+	.em7 .section3:before{ width:1em;height:1em; }
+	.em7 .section3 h3{ font-size:30px; }
+	.em .section3 h3{font-size: 29px;}
+}
+
+@media all and (max-width:980px) {	
+.em .section1{padding-top: 30px;padding-bottom: 30px;}
+.em .section1 .section1_content .col-left{width:100%;margin-right:0px;margin-bottom:30px;}
+.em .section1 .section1_content .col-right{width:100%;}
+.em .section1 .section1_content{margin-top:30px;}
+.em .section2{margin-top: 0px;padding:0px 0px 0px 0px;}
+.em .section3 .learn_more_ul_li{margin-top: 10px;}
+.em .section3{margin-top: 40px;}
+}
+
+
+@media all and (max-width:767px) {	
+.em .section1 h1, .em .section1 h1 div, .em .section3 .sec3_header h2, .em .section3 .sec3_header h2 div{font-size:40px;}
+.em .section1 div.secondary-header div, .em .section3 .sec3_header h3 div, .em .section3 .sec3_header h3, .em .section1 .section1_content .col-left h3, .em .section1 .section1_content .col-left h3 div{font-size:22px;}
+.em .section1 .section1_content .col-left h2, .em .section1 .section1_content .col-left h2 div{font-size:30px;}
+.em .section1 .section1_content .col-right{padding:20px 20px 30px;}
+.em .section2 .col-left{width:100%;}
+.em .section2 .col-right{width:100%; float:left;}
+.em .section1 .section1_content .col-left h3, .em .section1 .section1_content .col-left h3 div{margin:10px 0;}
+.em .section1 .section1_content .sec1_right_header h2, .em .section1 .section1_content .sec1_right_header h2 div, .em .section2 .col-right h2, .em .section2 .col-right h2 div, .em .section3 .sec3_content .sec2_right_header h2, .em .section3 .sec3_content .sec2_right_header h2 div{margin:15px 0;}
+.em .section1 .section1_content{margin-top:15px;}
+
+.em .section3:before{ width:0.9em;height:0.9em; }
+.em .section3{ padding:78px 0 30px; }
+.em .section3 .learn_more_ul{max-width: 300px;}
+.em .section3 .learn_more_ul_li{width: 100%;}
+.em .text_02{font-size: 14px;}
+.em .section3{margin-top: 20px;}
+
+}
+
+@media all and (max-width:600px) {	
+
+ .em .section1 ul.sec1_bottom_image li{width: 100%;}
+ .em .section2 .col-left img {max-width: 100%;width: 100%;}
+
+}
+
+@media all and (max-width:480px) {	
+.em .section1 h1, .em .section1 h1 div, .em .section3 .sec3_header h2, .em .section3 .sec3_header h2 div{font-size: 35px;}
+.em .section1 .section1_content .sec1_right_header h2, .em .section1 .section1_content .sec1_right_header h2 div, .em .section2 .col-right h2, .em .section2 .col-right h2 div, .em .section3 .sec3_content .sec2_right_header h2, .em .section3 .sec3_content .sec2_right_header h2 div{font-size:30px;}
+.em .section1 .section1_content .sec1_right_header h3, .em .section1 .section1_content .sec1_right_header h3 div, .em .section2 .col-right h3 div, .em .section2 .col-right h3, .em .section3 .sec3_content .sec2_right_header h3, .em .section3 .sec3_content .sec2_right_header h3 div{font-size:22px;}
+
+.em .section1 .section1_content .col-left h2, .em .section1 .section1_content .col-left h2 div{margin:15px 0 13px;}
+.em .section1 ul.sec1_bottom_image{margin-top: 40px;}
+.em .section3 .sec3_content{margin-top: 15px;}
+}
+
+@media all and (max-width:430px) {
+   .em .section3 {padding: 88px 0 40px;}
+}
+
+@media all and (max-width:380px) {	
+.em .section1 h1, .em .section1 h1 div, .em .section3 .sec3_header h2, .em .section3 .sec3_header h2 div{font-size: 32px;line-height: 1.2em;}
+}
+

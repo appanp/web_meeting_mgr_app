@@ -1,0 +1,1028 @@
+Return-Path: <bounce-2_HTML-150925611-2374871-8200069-3006@bounce.mail.salesforce.com>
+Delivered-To: appanponn@whatsbrew.in
+Received: from us2.mx.mailhostbox.com ([172.16.214.10])
+	by mss21.mailhostbox.aus-tx.colo (Dovecot) with LMTP id 2efuBVlfz1/+dwAAXVWb9Q
+	for <appanponn@whatsbrew.in>; Tue, 08 Dec 2020 11:11:21 +0000
+Received-SPF: Pass (sender SPF authorized) identity=mailfrom; client-ip=136.147.131.249; helo=mta3.mail.salesforce.com; envelope-from=bounce-2_html-150925611-2374871-8200069-3006@bounce.mail.salesforce.com; receiver=appanponn@whatsbrew.in 
+Authentication-Results: us2.mx.mailhostbox.com;
+	dkim=pass (1024-bit key; unprotected) header.d=mail.salesforce.com header.i=salesforce@mail.salesforce.com header.b="HnQOBTcQ";
+	dkim-atps=neutral
+Received: from mta3.mail.salesforce.com (mta3.mail.salesforce.com [136.147.131.249])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by us2.mx.mailhostbox.com (Postfix) with ESMTPS id CA5467140023
+	for <appanponn@whatsbrew.in>; Tue,  8 Dec 2020 11:11:20 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=mail.salesforce.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:List-ID:
+ X-CSA-Complaints:Message-ID:Content-Type; i=salesforce@mail.salesforce.com;
+ bh=s22OnIbVR3DUYxvLK9vn5Y6f+/YmdwIea4CdSpFdMoQ=;
+ b=HnQOBTcQD3piK7gM71LsLWxXFW/GYubOOBeBUyzymOTMGlrvOhyvy6kgFHRRmwaFLdi5Tnmp1NYR
+   /IEZtiN9CoPWRKQllqKKud/vjFnkBrKf0BnIhQVdz+mr7gX1NYx6vq43whjf4I+x+GsT3Xo1XsM9
+   68bFI4FQN2AUKWeJRMA=
+Received: by mta3.mail.salesforce.com id hptflg2fmd4d for <appanponn@whatsbrew.in>; Tue, 8 Dec 2020 11:11:20 +0000 (envelope-from <bounce-2_HTML-150925611-2374871-8200069-3006@bounce.mail.salesforce.com>)
+From: "Salesforce" <salesforce@mail.salesforce.com>
+To: <appanponn@whatsbrew.in>
+Subject: [Webinar Invitation] How to Scale Service and Grow Your Business
+Date: Tue, 08 Dec 2020 05:11:20 -0600
+List-Unsubscribe: <mailto:leave-fdb9161f2d205921-fe311575756d0678731571-fe8f167372600c7a74-fe961c727564047b7c-ff3617707562@leave.mail.salesforce.com>
+MIME-Version: 1.0
+Reply-To: "Salesforce" <reply-fe8f167372600c7a74-2_HTML-150925611-8200069-3006@mail.salesforce.com>
+List-ID: <8200011.xt.local>
+X-CSA-Complaints: whitelist-complaints@eco.de
+X-SFMC-Stack: 8
+x-job: 8200069_2374871
+Message-ID: <003aa0a3-67df-4105-be44-b4c7083b293e@atl1s08mta32.xt.local>
+Content-Type: multipart/alternative;
+	boundary="vq2n3BHfelw5=_?:"
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.3 cv=NpevjPVJ c=1 sm=1 tr=0 b=1
+	a=pESAz9UVNPXDyr7tB+TwIg==:117 a=pESAz9UVNPXDyr7tB+TwIg==:17
+	a=KqOhe5OoNmIA:10 a=zTNgK-yGK50A:10 a=r77TgQKjGQsHNAKrUKIA:9
+	a=FTg-WU4ZAAAA:8 a=Gqe9yoWtAAAA:8 a=xxNEIqYgI2n4-XWynLkA:9
+	a=QEXdDO2ut3YA:10 a=s-LlDWHjO3cA:10 a=kCWKFZLzuzcA:10 a=pj0szM6hAAAA:8
+	a=SSmOFEACAAAA:8 a=8UEV-LYRAAAA:8 a=3IeLnGJ6AAAA:8 a=IBhtzgFjR2WxS1BnYrcA:9
+	a=i_rZrbrDYMzI5dnw:21 a=iiSb79V-57OlctKO:21 a=bqMXD7XanI242Fsm:21
+	a=frz4AuCg-hUA:10 a=Am1xmI21INUA:10 a=Ngad-xV3__KGV7d2qhlE:22
+	a=_wQptUBN1NRyDuxeoxGm:22 a=VQ2JQ4pOynkHRowHV3RP:22
+	a=CIX2fKDqIAj4SMstqDkk:22
+
+This is a multi-part message in MIME format.
+
+--vq2n3BHfelw5=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Register online now to learn how manufacturers can transform their customer experience with faster, smarter field service. 
+
+Register Now: http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d62c39c02f206c212e2d7c76cfed81e4617a971835324fc8ee7ef028104af8c8cef2ffbe4a26595927e0b67ebfb6300e8c
+
+===========================================================
+#outlook a {padding: 0}
+
+  .ReadMsgBody, .ExternalClass {width: 100%}
+
+  .ExternalClass * {line-height: 100%}
+
+  .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass p, .ExternalClass div {line-height: 100%; mso-line-height-rule: exactly}
+
+  h1, h2, h3, h4, h5, h6, p {margin:0;padding:0;border:0;outline:0;font-weight:normal;font-size:100%;font-family:inherit;vertical-align:baseline;}
+
+  body,table,td,th {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin: 0 !important}
+
+  table,td,th { mso-table-lspace: 0pt; mso-table-rspace: 0pt}
+
+  td,th{margin: 0;padding: 0;font-weight: normal}
+
+  img {border: 0; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic}
+
+  table {border-collapse: collapse !important;}
+
+  body {height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important}
+ 
+.gmailfix {display:none;display:none!important;}
+
+  a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important}
+
+  .mobileLinks a {color:inherit !important; text-decoration:none !important} /* Wrap phone numbers, date, address with <span class="mobileLinks"> */
+ 
+.CTA_hover:hover {background-color:#284d79 !important;transition: all 0.4s ease-in;}
+
+  .CTA_hover a:hover {background-color:#284d79 !important; border-color:#284d79 !important;transition: all 0.4s ease-in;}
+
+  .CTA_hover_text:hover {color:#032e61 !important}  
+
+  .CTA_hover_text a:hover {color:#032e61 !important; border-bottom-color:#032e61 !important}
+
+  .CTA_hover_text a:hover span {border-bottom-color:#032e61 !important}
+ 
+u + .body .gmailfix {display: none !important}
+
+  u + .body .gmailHide {display: none !important;}
+ 
+@-ms-viewport {width: device-width}
+
+  span.MsoHyperlink {mso-style-priority:99;color:inherit;}
+
+  span.MsoHyperlinkFollowed {mso-style-priority:99;color:inherit;}
+ 
+@media only screen and (max-width: 480px) {
+
+.wrapper {
+
+width: 100% !important;
+
+}
+
+    .w100pc {width: 100% !important}
+
+    .w90pc {width: 90% !important;}
+
+    .w70pc {width:70% !important;}
+
+    .wauto {width: auto !important;}
+ 
+.h40 {height: 40px !important}
+
+    .hauto {height: auto !important}
+ 
+.mobileHide {display: none !important}
+
+    .mobileShow {display: inherit !important; max-height: none !important;overflow:visible !important; width: auto !important; margin: 0 auto!important}
+ 
+.block {display: block !important; width: 100% !important}
+
+    .mobileIMG {width: 100% !important; height: auto !important}
+ 
+.aligncenter {text-align: center !important}
+
+    .alignleft {text-align: left !important}
+
+    .alignright {text-align: right !important}
+
+    .alignmiddle {vertical-align: middle !important}
+ 
+.f26 {font-size: 26px !important; line-height: 30px !important}
+ 
+.BKG_cover {background-size: cover !important}
+
+    .BKG_clear {background-color: transparent !important}
+
+    .BKG_00a1e0 {background-color:#00a1e0 !important}
+
+    .BKG_trailblazer {background-position: -100px 0 !important}
+ 
+.bdr_b_none {border-bottom: none !important}
+ 
+.p_reset {padding-bottom: 0 !important;padding-left: 0 !important;padding-right: 0 !important;padding-top: 0 !important}
+
+    .pb10 {padding-bottom: 10px !important}
+
+    .pb20 {padding-bottom: 20px !important}
+
+    .pl0 {padding-left: 0 !important}
+
+    .pl20 {padding-left: 20px !important}
+
+    .pt10 {padding-top: 10px !important}
+
+    .pt20 {padding-top: 20px !important}
+
+    .pt0 {padding-top:0 !important}
+ 
+*[class="centerAlignTitle"] {
+ 
+padding-left: 100px !important;
+ 
+padding-right: 100px !important;
+
+ }
+ 
+td.center {
+
+    margin-left:auto; 
+
+    margin-right:auto;
+
+  }
+
+  }
+ 
+@media screen and (-webkit-min-device-pixel-ratio: 0), screen and (min--moz-device-pixel-ratio: 0) {
+
+    .font_normal {font-weight: normal !important;}
+
+  }
+ 
+@media only screen and (max-width: 390px) {
+
+    .block320 {display: block !important}
+
+    *[class="centerAlignTitle"] {
+ 
+padding-left: 60px !important;
+ 
+padding-right: 60px !important;
+
+ }
+
+  td.center {
+
+    margin-left:auto; 
+
+    margin-right:auto;
+
+  }
+ 
+}
+ 
+@media {
+
+@font-face{font-family:'SalesforceSansBold';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.ttf') format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.svg#SalesforceSansBold')
+
+ format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansBoldItalic';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.svg#SalesforceSansBoldItalic') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansItalic';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.svg#SalesforceSansItalic') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansLight';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.svg#SalesforceSansLight') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansLightItalic';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.svg#SalesforceSansLightItalic') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansRegular';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.svg#SalesforceSansRegular') format('svg');font-weight:normal;font-style:normal}
+
+}
+ 
+http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d6c031bc8eb2d46c038905dfc95a4a8e7eeb7049fb32ca780b49e12e0342a842626aca798ed4f8bed9c53adf27e1060c47
+ 
+LIVE WEBINAR
+ 
+Webinar: Intelligent Service 
+
+http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d6bd359effd770558b0d8f5ea2c0fa398ee2142553640c82dd4bc0892dc91916cc7af43ec16e09073e8e4b8ef4f0abbb25
+ 
+JANUARY
+ 
+24
+ 
+12:00PM IST
+ 
+Register Now
+http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d6bd359effd770558b0d8f5ea2c0fa398ee2142553640c82dd4bc0892dc91916cc7af43ec16e09073e8e4b8ef4f0abbb25
+ 
+
+
+Hi Appan,
+ 
+Join this webinar to hear how manufacturers can transform their customer experience with faster, smarter field service. Companies can now unite customers, connected devices, agents, dispatchers, and employees in the field with one powerful service platform to deliver faster, smarter, more personalised service from the phone to the field on one platform.
+ 
+ 
+By delivering intelligent Field Service, manufacturers can grow their business and delight their customers with the world’s #1 platform for service - all through proactive, personalized field service.
+ 
+Featured Speakers
+ 
+Ram Prasad
+http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d6ee064e48d913c5799bcdf4c54075f911abb0758ff6013acafe0d1b9685839ca9c269c836d86bd7eed23e3f416369cd9c
+ 
+Principal Solution Engineer
+ 
+Salesforce
+ 
+Rajkumar Ravuri
+http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d6dac2ef128369b8ffb82acc04dffc7d47fd192332f0c57212c8e75a91f17ce08c1d53068cb7f3c1367bf2e0d4aab24a2f
+ 
+Manufacturing Strategy Director
+ 
+Salesforce
+ 
+Register Now
+http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d6bd359effd770558b0d8f5ea2c0fa398ee2142553640c82dd4bc0892dc91916cc7af43ec16e09073e8e4b8ef4f0abbb25
+ 
+Kind Regards,
+ 
+The Salesforce
+http://click.mail.salesforce.com/?qs=96168f60d9b683fd1376d3b6eb8127cb25c7842154419e5172a7541ae1493916cbc598341596066593f65525da691fd33220e286a4e4375e
+ Team
+ 
+(C)  2020, salesforce.com, inc. All rights reserved. Various trademarks held by their respective owners.
+ 
+You can unsubscribe from Marketing emails at any time. Please note that opting-out of Marketing communications does not affect your receipt of business communications that are important to your interaction with Salesforce, such as support/service communications, security updates, event registration updates or account management communications.
+ 
+http://click.mail.salesforce.com/?qs=96168f60d9b683fdc90147bf79fb7c02a44a6103a2eed126b0f150efd3f6e8788800cc9e39bd26878afeb026f68ed838a70f31865f76ec09
+ 
+http://click.mail.salesforce.com/?qs=96168f60d9b683fd8222b321ca7f27d0b6213184742173ab33edc632ee02876c9562c82ba2fbd7bad2b20ac65645c9bf9ad79ecabf9e0fa8
+ 
+http://click.mail.salesforce.com/?qs=96168f60d9b683fd2e82bd2fb1657e2ad1af0e5aaa5502da217d172381b396792e067b6ffffd63a06864abe1ef2818d55dcd68874e275c1f
+ 
+http://click.mail.salesforce.com/?qs=96168f60d9b683fd5622e7b2afc5a0c7e3d133e23e2647e9ea1c38aaeedded94a98ef44e68c5b566dfc06a4a5a00c030b782602bd91f1350
+ 
+Salesforce.com India Private Limited.  Level 11 UB City, 24, Vittal Mallya Road, Bangalore, India 560 001 Phone: +91 080 6720 5349 or email us at IN_Sales@salesforce.com
+mailto:IN_Sales@salesforce.com
+ 
+This email was sent to appanponn@whatsbrew.in
+ 
+Manage Preferences
+http://click.mail.salesforce.com/?qs=96168f60d9b683fdaab2168c42b7a2115fc9fdc9320711d1172fc8ceb1f638acfcc98dbe7e05014dcb079f98f5b5152e31b14c31bd431780
+ to Unsubscribe | Privacy Statement
+http://click.mail.salesforce.com/?qs=96168f60d9b683fd6c1255c3df9a1c61e0ba02a0967764af381407786ff1f72e72d25a71314145d1b608cd0665ac43dfa76bb23ace7ccb3f
+   | Web Page View
+https://view.mail.salesforce.com/?qs=c9fa1be2ea19f37fd76b6338e4dcd05d7ce45759c3b47fb2b255dbb938841d9c3e95f91cdc3892fb68fe22f014533e26481e4b9f1e40b1ea934382f6f0fd5f3acb4704804cf6eb696832d88c89e41fa7
+ 
+
+
+--vq2n3BHfelw5=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<img src="http://click.mail.salesforce.com/open.aspx?ffcb10-fe8f167372600c7a74-fe2f1572766502757c1571-fe961c727564047b7c-ffcd16-fe311575756d0678731571-ff3617707562" width="1" height="1">
+
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=LKHGimyR_sfmc_8200069_sha256&partner_uid=74ae8b6ea950ae87b1fd7952096b3409dbce83e6fb278ec00f8e78370a834aa7" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=LKHGimyR_sfmc_8200069_subid&partner_uid=150925611" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_ad_impression.gif?confid=sownr8wvc&advertiserid=8200069&campaignid=FY21Q4_IN_WEB_DG_EDM1_SVC_How_to_Scale_Service_and_Grow_your_Business" width=0 height=0 style="display:none;" />
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+
+<head>
+
+<title></title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="format-detection" content="telephone=no">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!--[if (gte mso 9)|(IE)]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+
+<style type="text/css">
+
+  #outlook a {padding: 0}
+
+  .ReadMsgBody, .ExternalClass {width: 100%}
+
+  .ExternalClass * {line-height: 100%}
+
+  .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass p, .ExternalClass div {line-height: 100%; mso-line-height-rule: exactly}
+
+  h1, h2, h3, h4, h5, h6, p {margin:0;padding:0;border:0;outline:0;font-weight:normal;font-size:100%;font-family:inherit;vertical-align:baseline;}
+
+  body,table,td,th {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin: 0 !important}
+
+  table,td,th { mso-table-lspace: 0pt; mso-table-rspace: 0pt}
+
+  td,th{margin: 0;padding: 0;font-weight: normal}
+
+  img {border: 0; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic}
+
+  table {border-collapse: collapse !important;}
+
+  body {height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important}
+
+  
+
+  .gmailfix {display:none;display:none!important;}
+
+  a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important}
+
+  .mobileLinks a {color:inherit !important; text-decoration:none !important} /* Wrap phone numbers, date, address with <span class="mobileLinks"> */
+
+  
+
+  .CTA_hover:hover {background-color:#284d79 !important;transition: all 0.4s ease-in;}
+
+  .CTA_hover a:hover {background-color:#284d79 !important; border-color:#284d79 !important;transition: all 0.4s ease-in;}
+
+  .CTA_hover_text:hover {color:#032e61 !important}  
+
+  .CTA_hover_text a:hover {color:#032e61 !important; border-bottom-color:#032e61 !important}
+
+  .CTA_hover_text a:hover span {border-bottom-color:#032e61 !important}
+
+  
+
+  u + .body .gmailfix {display: none !important}
+
+  u + .body .gmailHide {display: none !important;}
+
+  
+
+</style>
+
+<style type="text/css">
+
+  
+
+  @-ms-viewport {width: device-width}
+
+  span.MsoHyperlink {mso-style-priority:99;color:inherit;}
+
+  span.MsoHyperlinkFollowed {mso-style-priority:99;color:inherit;}
+
+  
+
+</style>
+
+<!--[if mso]>  <style type="text/css">    a {text-decoration:none !important;}    span.underline {text-decoration:underline !important;}    li {text-indent: -1em;} /* Normalise space between bullets and text */  </style>  <![endif]-->
+
+<style type="text/css">
+
+  @media only screen and (max-width: 480px) {
+
+.wrapper {
+
+width: 100% !important;
+
+}
+
+    .w100pc {width: 100% !important}
+
+    .w90pc {width: 90% !important;}
+
+    .w70pc {width:70% !important;}
+
+    .wauto {width: auto !important;}
+
+    
+
+    .h40 {height: 40px !important}
+
+    .hauto {height: auto !important}
+
+    
+
+    .mobileHide {display: none !important}
+
+    .mobileShow {display: inherit !important; max-height: none !important;overflow:visible !important; width: auto !important; margin: 0 auto!important}
+
+    
+
+    .block {display: block !important; width: 100% !important}
+
+    .mobileIMG {width: 100% !important; height: auto !important}
+
+    
+
+    .aligncenter {text-align: center !important}
+
+    .alignleft {text-align: left !important}
+
+    .alignright {text-align: right !important}
+
+    .alignmiddle {vertical-align: middle !important}
+
+    
+
+    .f26 {font-size: 26px !important; line-height: 30px !important}
+
+    
+
+    .BKG_cover {background-image: url('http://image.mail.salesforce.com/lib/fe961c727564047b7c/m/3/e4a25ea8-12bf-4dc1-87c5-3e7d833b0224.png') !important; background-size: cover !important}
+
+    .BKG_clear {background-color: transparent !important}
+
+    .BKG_00a1e0 {background-color:#00857d !important}
+
+    .BKG_trailblazer {background-position: -100px 0 !important}
+
+
+
+    .bdr_b_none {border-bottom: none !important}
+
+    
+
+    .p_reset {padding-bottom: 0 !important;padding-left: 0 !important;padding-right: 0 !important;padding-top: 0 !important}
+
+    .pb10 {padding-bottom: 10px !important}
+
+    .pb20 {padding-bottom: 20px !important}
+
+    .pl0 {padding-left: 0 !important}
+
+    .pl20 {padding-left: 20px !important}
+
+    .pt10 {padding-top: 10px !important}
+
+    .pt20 {padding-top: 20px !important}
+
+    .pt0 {padding-top:0 !important}
+
+    
+
+  *[class="centerAlignTitle"] {
+
+       padding-left: 100px !important;
+
+       padding-right: 100px !important;
+
+     }
+
+   
+
+   td.center {
+
+    margin-left:auto; 
+
+    margin-right:auto;
+
+  }
+
+  }
+
+  
+
+  @media screen and (-webkit-min-device-pixel-ratio: 0), screen and (min--moz-device-pixel-ratio: 0) {
+
+    .font_normal {font-weight: normal !important;}
+
+  }
+
+  
+
+  @media only screen and (max-width: 390px) {
+
+    .block320 {display: block !important}
+
+    *[class="centerAlignTitle"] {
+
+       padding-left: 60px !important;
+
+       padding-right: 60px !important;
+
+     }
+
+  td.center {
+
+    margin-left:auto; 
+
+    margin-right:auto;
+
+  }
+
+   
+
+  }
+
+</style>
+
+<style type="text/css">
+
+  @media {
+
+@font-face{font-family:'SalesforceSansBold';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.ttf') format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Bold.svg#SalesforceSansBold')
+
+ format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansBoldItalic';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.svg#SalesforceSansBoldItalic') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansItalic';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Italic.svg#SalesforceSansItalic') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansLight';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Light.svg#SalesforceSansLight') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansLightItalic';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-BoldItalic.svg#SalesforceSansLightItalic') format('svg');font-weight:normal;font-style:normal}
+
+@font-face{font-family:'SalesforceSansRegular';src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.eot');src:url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.eot?#iefix') format('embedded-opentype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff2') format('woff2'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf')
+
+ format('truetype'),url('http://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.svg#SalesforceSansRegular') format('svg');font-weight:normal;font-style:normal}
+
+}
+
+</style>
+
+</head>
+
+<body bgcolor="#ffffff" style="margin: 0 auto; padding:0; -webkit-text-size-adjust:none; -ms-text-size-adjust: none;" class="body"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Register online now to learn how How to Scale Service and Grow Your Business  </div>
+
+<!--Header-->
+
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+
+  <tr>
+
+    <td style="font-size:0px;background:url('http://image.mail.salesforce.com/lib/fe981c727564047b72/m/12/spacerBG.png') right top repeat-y #ffffff;" class="mobileHide">&nbsp;</td>
+
+    <td align="center" bgcolor="#ffffff" width="640" valign="top" style="width: 640px;padding-bottom: 10px;padding-top: 10px" class="w100pc">
+
+    <table role="presentation" width="570" border="0" cellspacing="0" cellpadding="0" align="center" style="width:570px" class="w100pc">
+
+      <tr>
+
+        <th width="80" valign="top" style="text-align: left" class="block aligncenter"><a href="http://click.mail.salesforce.com/?qs=135ed89bdbeb9d8610b0de3d91772740d206238397e9d86a5e00492177e976b6b6f2989df8dfcb449abcd582e12d0bc4347501923cf7dd56" target="_blank" border="0" style="border:none;text-decoration:none;"><img src="http://image.mail.salesforce.com/lib/fe981c727564047b72/m/2/Salesforce_Logo_RGB_144x102.png" width="64" height="45" alt="Salesforce" style="display: inline-block; font-family:Arial, Helvetica, sans-serif;font-size:16px;color:#009ddc;border:none;text-decoration:none;vertical-align: middle" border="0" /></a></th>
+
+        
+
+        <th valign="bottom" style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#777777; font-size:14px;text-align: right; font-weight: normal;vertical-align: middle" class="block aligncenter pt20">LIVE WEBINAR</th>
+
+      </tr>
+
+    </table>
+
+    </td>
+
+    <td style="font-size:0px;background:url('http://image.mail.salesforce.com/lib/fe981c727564047b72/m/12/spacerBG.png') left top repeat-y #ffffff;" class="mobileHide">&nbsp;</td>
+
+  </tr>
+
+</table>
+
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+
+  <tr>
+
+    <td style="font-size:0px"><!--[if !mso]><!--><table role="presentation" cellspacing="0" cellpadding="0" border="0" align="right" class="mobileHide"><tr><td style="font-size:1px;mso-line-height-rule:exactly; line-height:1px; " bgcolor="#00857D" width="180" height="3">&nbsp;</td></tr></table><!--<![endif]--></td>
+
+    <td align="center" bgcolor="#00857D" height="3" width="640" valign="top" style="font-size:1px;mso-line-height-rule:exactly;line-height:1px;width: 640px" class="w100pc">&nbsp;</td>
+
+    <td style="font-size:0px"><!--[if !mso]><!--><table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" class="mobileHide"><tr><td style="font-size:1px;mso-line-height-rule:exactly; line-height:1px; " bgcolor="#00857D" width="180" height="3">&nbsp;</td></tr></table><!--<![endif]--></td>
+
+  </tr>
+
+</table>
+
+<!--end Header-->
+
+<!--Hero-->
+
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+
+  <tr>
+
+    <td style="font-size:0px;background:url('http://image.mail.salesforce.com/lib/fe961c727564047b7c/m/3/e979d78f-401f-41d2-853f-d3685fe74b41.png') right top no-repeat #ffffff;" class="mobileHide">&nbsp;</td>
+
+    <td align="center" background="http://image.mail.salesforce.com/lib/fe961c727564047b7c/m/3/9dc63c87-7fe4-4519-83ab-d68abd5f8508.png" width="640" height="264" valign="top" style="width:640px;background-image: url('http://image.mail.salesforce.com/lib/fe961c727564047b7c/m/3/9dc63c87-7fe4-4519-83ab-d68abd5f8508.png'); background-position: top left; background-repeat: no-repeat; background-color:#787cae" class="w100pc BKG_cover">
+
+    <!--[if gte mso 9]>      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:480pt;height:198pt;">        <v:fill type="frame" src="http://image.mail.salesforce.com/lib/fe961c727564047b7c/m/3/2915e123-be9f-4ec3-8003-5820b1d1f08a.png" color="#787cae" />        <v:textbox inset="0,0,0,0">      <![endif]-->
+
+
+    <div style="padding:0;margin: 0">
+
+    <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="100%" dir="rtl" class="w90pc">
+
+      <tr>
+
+        <th valign="top" style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:# 032e61; font-size:35px; line-height:26px; text-align:left; font-weight: normal;padding-top: 5px;vertical-align: top;padding-left: 10px" dir="ltr" class="block aligncenter pt0">
+
+          <h1 style="text-align: left; font-family: 'SalesforceSansLight', Helvetica, Arial, sans-serif; color:#ffffff;font-size:22px;mso-line-height-rule: exactly;line-height:32px;font-weight:normal;margin:0;padding-top: 20px" class="f26"><a href="http://click.mail.salesforce.com/?qs=135ed89bdbeb9d86f31aa21f2199d9f763cd3c29c05cec1fc50cbe8e1f1ae373a3395ae98f24cbe146c0a5d3f68e923cf7b2b07111545ab6"  target="_blank" style="color: #032e61; text-decoration: none">
+How to Scale Service and Grow Your Business 
+
+</a></h1>
+
+        </th>
+
+        <th width="15" align="center" style="vertical-align: top" dir="ltr" class="block h40">&nbsp;</th>
+
+        <th bgcolor="#00857D" align="center" valign="top" height="264" dir="ltr" style="vertical-align:top;height:264px" class="block hauto BKG_clear">
+
+        <!--Event Date-->
+
+        <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="185" style="width:185px;" class="w70pc BKG_00a1e0">
+
+          <tr>
+
+            <td align="center" style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#ffffff; font-size:25px;line-height:26px;text-transform:uppercase;font-weight: normal;white-space: nowrap;padding-top: 25px;"></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="center" style="font-family: 'SalesforceSansBold', Helvetica, Arial, sans-serif; color:#ffffff; font-size:25px; line-height:22px; font-weight:bold;" class="font_normal">DECEMBER</td>
+
+          </tr>
+
+          <tr>
+
+            <td align="center" style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#ffffff; font-size:80px; line-height:88px;text-transform: uppercase;font-weight: normal;white-space: nowrap;font-weight: normal;">16</td>
+
+          </tr>
+          <tr>
+
+            <td align="center" style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#ffffff; font-size:20px; line-height:22px;text-transform: uppercase;font-weight: normal;white-space: nowrap;font-weight: normal;">12:00 PM
+ IST</td>
+
+          </tr>
+
+          <tr>
+
+            <td align="center" style="text-align: center">
+
+            <!--CTA-->
+
+            <center>
+
+            <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" style="margin: 0 auto;">
+
+              <tr>
+
+                <td align="center" style="padding-top: 20px; padding-bottom: 20px; text-align:center"><table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center">
+
+                  <tr>
+
+                    <td align="center" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;background-color: #032e61; white-space: nowrap" class="CTA_hover"><a href="http://click.mail.salesforce.com/?qs=135ed89bdbeb9d8679edcdf5c8a67abb01e57ea543c27a0da3bf32ab0c8968c9261f0163054d35185aa1ab550e599cfe61bb09e4b1c1b9a4" target="_blank"  style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; font-size: 14px; color: #ffffff; text-decoration: none; text-transform: uppercase;font-weight: normal; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding: 11px 24px; border: 1px solid #032e61; display: inline-block;"><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->Register now<!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]--></a></td>
+
+                  </tr>
+
+                </table></td>
+
+              </tr>
+
+            </table>
+
+            </center>
+
+            <!--end CTA-->
+
+            </td>
+
+          </tr>
+
+        </table>
+
+        </th>
+
+      </tr>
+
+</table>
+
+    </div>
+
+    <!--[if gte mso 9]>        </v:textbox>      </v:rect>      <![endif]-->
+
+    </td>
+
+    <td style="font-size:0px;background:url('http://image.mail.salesforce.com/lib/fe961c727564047b7c/m/3/2cccdd1a-b764-4411-912e-b947e0b2776f.png') left top no-repeat #ffffff;" class="mobileHide">&nbsp;</td>
+
+  </tr>
+
+</table>
+
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+
+  <tr>
+
+    <td style="font-size:0px"><!--[if !mso]><!--><table role="presentation" cellspacing="0" cellpadding="0" border="0" align="right" class="mobileHide"><tr><td style="font-size:1px; line-height:1px; mso-line-height-rule:exactly;" bgcolor="#00857D" width="180" height="20">&nbsp;</td></tr></table><!--<![endif]--></td>
+
+    <td align="center" bgcolor="#00857D" height="20" width="640" valign="top" style="font-size:1px; line-height:1px; mso-line-height-rule:exactly;width: 640px" class="w100pc">&nbsp;</td>
+
+    <td style="font-size:0px"><!--[if !mso]><!--><table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" class="mobileHide"><tr><td style="font-size:1px; line-height:1px; mso-line-height-rule:exactly;" bgcolor="#00857D" width="180" height="20">&nbsp;</td></tr></table><!--<![endif]--></td>
+
+  </tr>
+
+</table>
+
+<!--end Hero-->
+
+<!--Webinar Details-->
+
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+
+  <tr>
+
+    <td style="font-size:0px;background:url('http://image.mail.salesforce.com/lib/fe981c727564047b72/m/12/spacerBG.png') right top repeat-y #ffffff;" class="mobileHide">&nbsp;</td>
+
+    <td align="center" bgcolor="#ffffff" width="640" valign="top" style="width:640px;" class="w100pc">
+
+    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="90%" align="center">
+
+      <tr>
+
+        <td align="center" style="padding-top: 40px; padding-bottom: 50px">
+
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+
+          <tr>
+
+            <td align="center" style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#666666; font-size:16px;line-height:26px;">
+
+            <!--Intro-->
+
+              <p style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#666666; font-size:16px;mso-line-height-rule: exactly;line-height:26px;margin: 0 0 10px 0;text-align: left">
+   
+ Hi Appan,  <br><br>
+As India extends into a prolonged new normal, a spectrum of recovery exists across different industries. For many service centres the new normal involves a mixture of home, office and anywhere modes of operations. Service leaders face triple challenges of building service resilience, looking after employee wellbeing and defending their budget under the economy downturn.<br><br>
+                Join us for the panel discussion to understand how industry leaders are dealing with this change and reimagining collaboration and service for their business.
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ 
+
+
+
+
+
+
+
+              
+                <!--end Bulleted list-->
+
+                
+    <!--Speaker photos-->
+                  <h2 style="font-family: 'SalesforceSansBold', Helvetica, Arial, sans-serif; color:#4e758b; font-size:14px;mso-line-height-rule: exactly;line-height:24px;margin: 30px 0 0 0;text-align: center;text-transform: uppercase;font-weight:bold;letter-spacing:0.04em" class="font_normal">Featured Speaker </h2>
+                  <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" class="w100pc">
+                    <tr>
+                      <th align="right" valign="top" width="220" style="padding-top: 25px;text-align: center; font-weight: normal" class="block"> <img src="https://image.mail.salesforce.com/lib/fe961c727564047b7c/m/5/179f0797-c4f7-4f4a-b1c7-f3179cb65a26.png" width="125" alt="Ajay Nambiar" style="display: inline-block; border:none;" border="0" />
+                        <p style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#666666; font-size:14px;mso-line-height-rule: exactly;line-height:22px;margin: 0 0 10px 0;padding-top: 10px"> <a title="Sundeep Kamath" target="_blank" style="color: #009ddc; text-decoration: none;">Ajay Nambiar</a> <br>
+               CXO | Global CX Thought leader & Influencer<br> 
+                   L&T Realty</p>
+                      </th>
+                      
+                      <th align="right" valign="top" width="220" style="padding-top: 25px;text-align: center; font-weight: normal" class="block"> <img src="https://image.mail.salesforce.com/lib/fe961c727564047b7c/m/5/513ec860-97d7-449b-a439-4086c28ede1b.png" width="125" alt="Ashish Thakur" style="display: inline-block; border:none;" border="0" />
+                        <p style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#666666; font-size:14px;mso-line-height-rule: exactly;line-height:22px;margin: 0 0 10px 0;padding-top: 10px"> <a title="Sundeep Kamath" target="_blank" style="color: #009ddc; text-decoration: none;">Ashish Thakur</a> <br>
+                IT Leader - DBU & CRM Capability<br> 
+                       Cummins India</p>
+                      </th>
+                      
+                      <th align="right" valign="top" width="220" style="padding-top: 25px;text-align: center; font-weight: normal" class="block"> <img src="https://image.mail.salesforce.com/lib/fe961c727564047b7c/m/5/87d2ee1a-a2d0-4593-8e73-edebcc4b48ab.png" width="125" alt="Kamal Kanth" style="display: inline-block; border:none;" border="0" />
+                        <p style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#666666; font-size:14px;mso-line-height-rule: exactly;line-height:22px;margin: 0 0 10px 0;padding-top: 10px"> <a title="Sundeep Kamath" target="_blank" style="color: #009ddc; text-decoration: none;">Kamal Kanth</a> <br>
+                Regional Vice President<br> 
+                        Salesforce </p>
+                      </th>
+                    
+                      
+                       
+                      
+                     
+                    </tr>
+                  </table>
+               
+              <br><br>
+                  
+                  
+                    <!--end Speaker photos-->
+       
+
+      <table class="wrapper" align="center" width="600" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin:0px auto; width: 600px">
+      <tr>
+        <td align="center" valign="top" bgcolor="#ffffff" style="font-family:'SalesforceSansLight', Helvetica, Arial, sans-serif;color:#333333;font-size:16px;line-height:24px; padding-top:0px; padding-right:30px; padding-left:30px;">
+          
+          <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;" bgcolor="#032e61"><a href="http://click.mail.salesforce.com/?qs=135ed89bdbeb9d86308c8d29aaa54309b59c35597ff1dddee916e8bd605689d0a2272e9ecd499e104cd24a7fb3f23aeb79c983d79821fadb" target="_blank"  style="font-size: 14px; line-height: 18px; font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif;-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; color: #ffffff; text-decoration: none; font-weight: regular; padding: 11px 24px; border: 1px solid #032e61; display: inline-block;text-transform: Uppercase;"><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->Register now <!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]--></a></td>
+                              </tr>
+                            </table>
+        
+        </td>
+      </tr>
+
+      </table><br>
+
+               <p style="font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif; color:#666666; font-size:16px;mso-line-height-rule: exactly;line-height:26px;margin: 30px 0 10px 0;text-align: left;clear: both"> We hope to see you there.<br><br> Kind Regards,<br>
+
+       The <a href="http://click.mail.salesforce.com/?qs=135ed89bdbeb9d869a6845b4b22b16672337f9f9d9f8b9a26958f6cb7dbcc5aad16e0978cc17e33b1d3e1d90d4e5e0d32a0aae44d6520ce9" title="Signature" target="_blank" style="color: #009ddc; text-decoration: none;">Salesforce</a> Team </p>
+
+            </td>
+
+          </tr>
+
+        </table>
+
+        </td>
+
+      </tr>
+
+    </table>
+
+    </td>
+
+    <td style="font-size:0px;background:url('http://image.mail.salesforce.com/lib/fe981c727564047b72/m/12/spacerBG.png') left top repeat-y #ffffff;" class="mobileHide">&nbsp;
+
+
+
+    </td>
+
+  </tr>
+
+</table>
+
+<!--end Webinar Details-->
+  
+ <!--START FOOTER-->
+<table bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" bgcolor="#f4f4f4" valign="top">
+     <table width="640" border="0" align="center" cellpadding="0" cellspacing="0" class="wrapper" bgcolor="#f4f4f4">
+        
+          <tr>
+            <td bgcolor="#f4f4f4" align="center" style="padding:25px 30px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              
+                <tr>
+                  <td align="left" valign="top" style="padding:0px; font-family:  'SalesforceSansRegular', Arial, 'Helvetica', sans-serif; font-size:11px; line-height:16px; color:#666666;">
+                    &copy;  2020, <a style="color:#666666; text-decoration:none;" class="ftLinksHideStyle">salesforce.com,</a> inc. All rights reserved. Various trademarks held by their respective&nbsp;owners.<br>
+                  
+             
+               </td>
+                </tr>
+                <tr>
+            <td align="left" valign="top" style="padding-top:15px;padding-bottom:15px;padding-left:0px;">
+            <!-- SOCIAL START -->
+              <table class="width-100pc" style="margin:0px auto" align="left" bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" bgcolor="#f4f4f4" valign="middle" width="28"><a   href="http://click.mail.salesforce.com/?qs=135ed89bdbeb9d86ba690c44eac7efd9ac05403a01f88410e6ab9b1a16bdd0dbf31f66a6e9fcc441f736c0f672098903dd55268b6f86b0e8" target="_blank"><img src="http://image.mail.salesforce.com/lib/fe981c727564047b72/m/5/1604_gray_twitter_icon_28x28.png" style="display: block; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; line-height: 20px; text-decoration: none;" alt="Twitter" border="0" width="28" height="28"></a>
+                  </td>
+                  <td class="hide" bgcolor="#f4f4f4" width="10">
+                  </td>
+                  <td align="center" bgcolor="#f4f4f4" valign="middle" width="28"><a   href="http://click.mail.salesforce.com/?qs=135ed89bdbeb9d86f2840bfe498403aa5505778161c3f9ff4383ad438f763a5fb540efc108fd06c9586be02b0198390891e20ebb4c4dd02f" target="_blank"><img src="http://image.mail.salesforce.com/lib/fe961c727564047b7c/m/1/34825a11-43e5-4895-8615-455343ecdd04.png" style="display: block; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; line-height: 20px; text-decoration: none;" alt="Instagram" border="0" width="28" height="28"></a>
+                  </td>
+                  <td bgcolor="#f4f4f4" width="10">
+                  </td>
+                  <td align="center" bgcolor="#f4f4f4" valign="middle" width="28"><a   href="http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d67ec27f05a6306c1104544eaec91853be5e9508689ba57b81d93b3833f387e91bc4131fac1c36b2b80e58044b25a4c4f5" target="_blank"><img src="http://image.mail.salesforce.com/lib/fe981c727564047b72/m/5/1604_gray_linkedin_icon_28x28.png" style="display: block; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; line-height: 20px; text-decoration: none;" alt="LinkedIn" border="0" width="28" height="28"></a>
+                  </td>
+                  <td class="hide" bgcolor="#f4f4f4" width="10">
+                  </td>
+                  <td align="right" bgcolor="#f4f4f4" valign="middle" width="28"><a   href="http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d62ecd3c6b46e58abb688aeaff88ec06af57480b8f8a57e1fcddb087031207ac77822cdef4948d1abbd9895c8373c704b2" target="_blank"><img src="http://image.mail.salesforce.com/lib/fe981c727564047b72/m/5/1604_gray_youtube_icon_28x28.png" style="display: block; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; line-height: 20px; text-decoration: none;" alt="Youtube" border="0" width="28" height="28"></a>
+                  </td>
+                </tr>
+              </table>
+            <!-- SOCIAL END -->
+            </td>
+          </tr>
+             <tr>
+                  <td align="left" valign="top" style="padding:0px; font-family:  'SalesforceSansRegular', Arial, 'Helvetica', sans-serif; font-size:11px; line-height:16px; color:#666666;">
+       <a style="color:#666666; text-decoration:none;" class="ftLinksHideStyle"> Salesforce.com</a> India Private Limited. <a style="color:#666666; text-decoration:none;" class="ftLinksHideStyle"> Torrey Pines, Third Floor, Embassy Golf Links Business Park, Varthur Hobli, Challaghatta Village, Bengaluru (Bangalore) Urban, Karnataka, 560071</a> Phone: <a style="color:#666666; text-decoration:none;" class="ftLinksHideStyle">+91 080 6720 5349 or email us at </a><a href="mailto:IN_Sales@salesforce.com" style="text-decoration: none; color: #666666;">IN_Sales@salesforce.com</a>
+                   <br><br> This email was sent to <a style="color:#666666;text-decoration:none;">appanponn@whatsbrew.in </a><br>
+              <a href="http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d67bf2bb0dc71c9061626e843ed7b76202d00949a474e1be97167671f0513593f1b3dd6af7da73d9b05e1c95238fcb1ca9"  target="_blank" style="color:#666666;text-decoration:underline;">Manage Preferences</a> to Unsubscribe | <a href="http://click.mail.salesforce.com/?qs=03e6ec22faf3a1d67904e9918d215194371f15a7a77106ead2862d562d1a8f9e1d6bac0dbde644d0d47aec5fa566adfc265cff3e8fd6d95c"   target="_blank" style="color:#666666;text-decoration:underline;">Privacy Statement</a>   | <a href="https://view.mail.salesforce.com/?qs=c9fa1be2ea19f37fd76b6338e4dcd05d7ce45759c3b47fb2b255dbb938841d9c3e95f91cdc3892fb68fe22f014533e26481e4b9f1e40b1ea934382f6f0fd5f3a99906e96c828fee4103a26e0256d05c6"   style="color:#666666; text-decoration: underline;">Web Page View</a>
+               
+               
+               </td>
+                </tr>
+              
+            </table></td>
+          </tr>
+        
+      </table>
+    </td>
+  </tr>
+</table>
+  <!--END FOOTER-->
+
+<div class="gmailfix" style="white-space:nowrap; font:15px courier; line-height:0;">
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+</div>
+
+
+
+
+<!-- Return Path Pixels -->
+
+
+
+<img src="https://pixel.app.returnpath.net/pixel.gif?r=e7f2959c19f965ec08c72195396e1bb62f188d4a&c=2374871&s=74ae8b6ea950ae87b1fd7952096b3409dbce83e6fb278ec00f8e78370a834aa7" width="1" height="1" />
+<img src="https://pixel.inbox.exacttarget.com/pixel.gif?r=e7f2959c19f965ec08c72195396e1bb62f188d4a&c=2374871&s=74ae8b6ea950ae87b1fd7952096b3409dbce83e6fb278ec00f8e78370a834aa7" width="1" height="1" />
+
+<!-- END Return Path Pixels -->
+
+<!--Opens Tracking Pixel -->
+
+<img src="http://click.mail.salesforce.com/open.aspx?ffcb10-fe8f167372600c7a74-fe2f1572766502757c1571-fe961c727564047b7c-ffcd16-fe311575756d0678731571-ff3617707562" width="1" height="1">
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=LKHGimyR_sfmc_8200069_sha256&partner_uid=74ae8b6ea950ae87b1fd7952096b3409dbce83e6fb278ec00f8e78370a834aa7" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_usermatch.gif?partner=LKHGimyR_sfmc_8200069_subid&partner_uid=150925611" width=0 height=0 style="display:none" /> 
+<img src="https://beacon.krxd.net/1x1_ad_impression.gif?confid=sownr8wvc&advertiserid=8200069&campaignid=FY21Q4_IN_WEB_DG_EDM1_SVC_How_to_Scale_Service_and_Grow_your_Business" width=0 height=0 style="display:none;" />
+
+<!-- End Open Tracking Pixel -->
+  <img src="http://click.mail.salesforce.com/open.aspx?ffcb10-fe8f167372600c7a74-fe2f1572766502757c1571-fe961c727564047b7c-ffcd16-fe311575756d0678731571-ff3617707562" width="1" height="1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+--vq2n3BHfelw5=_?:--
+

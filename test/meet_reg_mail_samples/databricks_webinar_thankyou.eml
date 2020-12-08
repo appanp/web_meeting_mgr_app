@@ -1,0 +1,684 @@
+Return-Path: <094-YMS-629.0.38290.0.0.28757.9.12270300-1@potomac1050.mktomail.com>
+Delivered-To: appanponn@whatsbrew.in
+Received: from us2.mx.mailhostbox.com ([172.16.214.82])
+	by mss21.mailhostbox.aus-tx.colo (Dovecot) with LMTP id /vr1AvJqz188ZwAAXVWb9Q
+	for <appanponn@whatsbrew.in>; Tue, 08 Dec 2020 12:00:50 +0000
+Received-SPF: Pass (sender SPF authorized) identity=mailfrom; client-ip=199.15.213.53; helo=potomac1053.mktomail.com; envelope-from=094-yms-629.0.38290.0.0.28757.9.12270300-1@potomac1050.mktomail.com; receiver=appanponn@whatsbrew.in 
+Authentication-Results: us2.mx.mailhostbox.com;
+	dkim=pass (1024-bit key; unprotected) header.d=databricks.com header.i=@databricks.com header.b="Pn0hYqTT";
+	dkim=pass (1024-bit key; unprotected) header.d=mktomail.com header.i=@mktomail.com header.b="Y+dfVWJb";
+	dkim-atps=neutral
+Received: from potomac1053.mktomail.com (potomac1053.mktomail.com [199.15.213.53])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by us2.mx.mailhostbox.com (Postfix) with ESMTPS id E5BA3AA04B9
+	for <appanponn@whatsbrew.in>; Tue,  8 Dec 2020 12:00:49 +0000 (GMT)
+X-MSFBL: t1/Trk7yQEMdOdUEyOWLug95tYnoh/OEl9r08lohnzA=|eyJ1IjoiMDk0LVlNUy0
+	2Mjk6MDoyMjAyOToyNTYwMzM6MDoyODc1Nzo5OjM4MjkwOjEyMjcwMzAwLTEiLCJ
+	nIjoiYmctYWItMDEiLCJyIjoiYXBwYW5wb25uQHdoYXRzYnJldy5pbiIsImIiOiJ
+	kdnAtMTk5LTE1LTIxMy01MyJ9
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1607428849;
+	s=m1; d=databricks.com; i=@databricks.com;
+	h=Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=IastiYg/PEYqcfDr2SIZ+dUcLHrW7mHvfecCcKtmzds=;
+	b=Pn0hYqTTwdzr84gGmRH3aakncuSxv4ifZyT2exbxe8X9m0PgYwqqGD3r43gfjT7k
+	tpIv00aJSScIztMxTJUZIyMM86xB809wEr35JksQL7Hu7i3GyBNHUGojQNCJ+Njhnhj
+	IXqxpzeJ24Z1ApSMglxXoSWdujKYpRvI8XAjoWn8=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1607428849;
+	s=m1; d=mktomail.com; i=@mktomail.com;
+	h=Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=IastiYg/PEYqcfDr2SIZ+dUcLHrW7mHvfecCcKtmzds=;
+	b=Y+dfVWJb2AxEwamavBedNVUZhGm1vlzwsoCyFeYy4RoK9Rk6gB0QPd5XtCl7rKTM
+	SP4FzWlFIDIi1E+wugu7opieFT34gs8IYp2EHylmMQBB3BNgaDCJogb5qqF54YrFr4G
+	AwLdWFlHAGHtD+lIcTuVatZ0OBEWw93qciOiD1rw=
+Date: Tue, 8 Dec 2020 06:00:49 -0600 (CST)
+From: Databricks APAC Team <apacevents@databricks.com>
+Reply-To: apacevents@databricks.com
+To: appanponn@whatsbrew.in
+Message-ID: <828891273.23619363.1607428849345@abmktmail-trigger1g.marketo.org>
+Subject: Webinar Confirmation: Building Reliable Data Lakes With Delta Lake
+ | Virtual Guided Workshop
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_23619362_1718999686.1607428849336"
+X-Binding: bg-ab-01
+X-MarketoID: 094-YMS-629:0:22029:256033:0:28757:9:38290:12270300-1
+X-Mailfrom: 094-YMS-629.0.38290.0.0.28757.9.12270300-1@potomac1050.mktomail.com
+X-MktArchive: false
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.3 cv=AvWQI91P c=1 sm=1 tr=0 b=1
+	a=5lTBt3gcGIWnA27NphV5VA==:117 a=5lTBt3gcGIWnA27NphV5VA==:17
+	a=C6dPr--mAAAA:8 a=sQUeBA5sAAAA:8 a=qfIVSYoDmJBjDk3EI-EA:9
+	a=QEXdDO2ut3YA:10 a=_vtOKdU9LTMA:10 a=kCWKFZLzuzcA:10 a=9c2qa4PAQ8UA:10
+	a=zWUDQKcpXh8A:10 a=SSmOFEACAAAA:8 a=3g80flMcAAAA:8
+	a=9gjMJRaW-v5olloYdsMA:9 a=QKi9lRG1EVrL0Cfg:21 a=gKO2Hq4RSVkA:10
+	a=frz4AuCg-hUA:10 a=_W_S_7VecoQA:10 a=bDBLaoaKIJyz7sNgAOiS:22
+	a=VVni5JXXsf6ovgjv4Ydo:22
+
+------=_Part_23619362_1718999686.1607428849336
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+View in Browser <[[https://pages.databricks.com/index.php/email/emailWebvie=
+w?mkt_tok=3DeyJpIjoiWXpRMFpURmlaVE5qWmpsbSIsInQiOiJpdHBEcG1pc2ZVRElMQnRsbVV=
+rMXNOSnpjdlR0WnFydjBkUkNhdlJib3BCTGtwUVR2bktVWFdqOGp5KzhiUUl4V1dpT0ZyeGc5Sm=
+1SWjZXREVUQmZrYXh6RmtRVEZuUGp2bzNHbGd3SjZBZG9RSm5Kb2JBbU1YNVhqK1ZqcklrNCJ9&=
+aliId=3Dj0hYdsLILgkK7CMcgpHzWtuT9ku2EuLW1dgSdpuNs7lJtzsFEouvQw%3D%3D]]>
+Wednesday, 9 December 2020=20
+1:00 PM - 3:00 PM Singapore | 10:30 AM - 12:30 PM Mumbai
+Hi Appan,=20
+
+Thank you for registering for Building Reliable Data Lakes With Delta Lake =
+| Virtual Guided Workshop on Wednesday, 9 December 2020  at 1:00 PM - 3:00 =
+PM Singapore | 10:30 AM - 12:30 PM Mumbai. To join this webinar, click the =
+link below:=20
+
+We will use the Databricks Community Edition for the lab exercises. To prep=
+are for the lab please create an account for yourself (no credit card requi=
+red).=20
+
+Also, if you would like to familiarize yourself with the lab, please check =
+out the handout <https://info.databricks.com/lfMup000hN440S0oP0C030Y> and t=
+he two notebooks (Data Preparation With Delta Lake <https://info.databricks=
+.com/GNM0Sf004qP4Y0oh00004Cu> and Evaluate Risk on Loan Approvals <https://=
+info.databricks.com/TrCYf040N0004M500hPuoS0>) that will be used at the even=
+t.
+JOIN WEBINAR <https://info.databricks.com/dc/kvtpV3WYob2etSFEoxuDGP82fffHiY=
+lqkCwdw7c6uGa3tKiHHsiwbpESxJ-aA1pnWCGl1AATNpGvbDFP8jD_LQ4ODqPcfm510u4fCETSN=
+R73bSGRItoNiUJXl_vbEQv4/wM4SCPoYh00004No00u020f>
+To add this webinar to your calendar, please click here:=C2=A0=C2=A0
+                                                               =20
+
+
+ =20
+ =20
+
+
+
+
+<a href=3D"https://ics.agical.io/?subject=3DBuilding+Reliable+Data+Lakes+Wi=
+th+Delta+Lake+%7C+Databricks+Guided+Workshop&organizer=3DDatabricks+APAC+Te=
+am&reminder=3D15&dtstart=3D2020-12-09T13%3A00%3A00%2B0800&dtend=3D2020-12-0=
+9T15%3A00%3A00%2B0800&attach=3Dhttps%3A%2F%2Fpages.databricks.com%2F202012-=
+APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.html&location=3Dhttps%3A%2F%2Fp=
+ages.databricks.com%2F202012-APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.ht=
+ml&description=3DThank+you+for+registering+for+Building+Reliable+Data+Lakes=
++With+Delta+Lake+%7C+Databricks+Guided+Workshop.+%0ATo+join+this+webinar%2C=
++click+the+link+below%3A%0A%0Ahttps%3A%2F%2Fpages.databricks.com%2F202012-A=
+PJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.html" target=3D"_blank" class=3D=
+"atc-outlook">Outlook</a> | <a href=3D"https://ics.agical.io/?subject=3DBui=
+lding+Reliable+Data+Lakes+With+Delta+Lake+%7C+Databricks+Guided+Workshop&or=
+ganizer=3DDatabricks+APAC+Team&reminder=3D15&dtstart=3D2020-12-09T13%3A00%3=
+A00%2B0800&dtend=3D2020-12-09T15%3A00%3A00%2B0800&attach=3Dhttps%3A%2F%2Fpa=
+ges.databricks.com%2F202012-APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.htm=
+l&location=3Dhttps%3A%2F%2Fpages.databricks.com%2F202012-APJ-AI-EV-VirtualD=
+eltaLakeWorkshop_00.Lobby.html&description=3DThank+you+for+registering+for+=
+Building+Reliable+Data+Lakes+With+Delta+Lake+%7C+Databricks+Guided+Workshop=
+.+%0ATo+join+this+webinar%2C+click+the+link+below%3A%0A%0Ahttps%3A%2F%2Fpag=
+es.databricks.com%2F202012-APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.html=
+&format=3Dgcal" target=3D"_blank" class=3D"atc-gcal">Google Calendar</a>
+
+If you have any questions at all, please don=E2=80=99t hesitate to email us=
+ at events@databricks.com <https://info.databricks.com/p0P00Y0NsS0u06CMoh04=
+4f0>.
+
+Note: this link should not be shared with others; it is unique to you. Shar=
+e this event with your colleagues <https://databricks.com/p/webinar/delta-l=
+ake-guided-workshop>.=20
+
+Enjoy the webinar!
+Databricks=20
+ 160 Spear St 13th floor, San Francisco, CA 94105 <https://info.databricks.=
+com/b0000oMhfYa0S4Nw000u4PC> =20
+
+ This email was sent to appanponn@whatsbrew.in <https://info.databricks.com=
+/dc/0G9PGmVj-9ksTR78TmQfLO2ghW6V9dleLYsSn4k7Khs=3D/wM4SCPoYh00004No00u020f>=
+, if you no longer want to receive emails, unsubscribe here <[[https://page=
+s.databricks.com/UnsubscribePage.html?mkt_unsubscribe=3D1&mkt_tok=3DeyJpIjo=
+iWXpRMFpURmlaVE5qWmpsbSIsInQiOiJpdHBEcG1pc2ZVRElMQnRsbVVrMXNOSnpjdlR0WnFydj=
+BkUkNhdlJib3BCTGtwUVR2bktVWFdqOGp5KzhiUUl4V1dpT0ZyeGc5Sm1SWjZXREVUQmZrYXh6R=
+mtRVEZuUGp2bzNHbGd3SjZBZG9RSm5Kb2JBbU1YNVhqK1ZqcklrNCJ9]]>.=20
+
+ Copyright =C2=A9 2020 Databricks. All rights reserved.
+
+------=_Part_23619362_1718999686.1607428849336
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />=
+=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" />=20
+<meta content=3D"telephone=3Dno" name=3D"format-detection" />=20
+<meta content=3D"date=3Dno" name=3D"format-detection" />=20
+<meta content=3D"address=3Dno" name=3D"format-detection" />=20
+<meta content=3D"email=3Dno" name=3D"format-detection" />=20
+<!-- EMAIL SETTINGS -->     =20
+<!-- MODULE SETTINGS -->                       =20
+<!-- BANNER SETTINGS -->    =20
+<!-- COL SETTINGS -->   =20
+<!-- DIVIDER & BORDER SETTINGS -->     =20
+<!-- IMAGE SETTINGS -->          =20
+<!-- TYPOGRAPHY SETTINGS H1-6 + P - Duplicate as needed -->                =
+                                                                           =
+  =20
+<!-- CTA SETTINGS -->                    =20
+<!-- TOGGLES - Example in body of email -->                      =20
+<title>Databricks Inc.</title>=20
+<link href=3D"https://fonts.googleapis.com/css?family=3DBarlow:300,300i,400=
+,600,600i,700,700i&amp;display=3Dswap" rel=3D"stylesheet" />=20
+<style type=3D"text/css">
+    * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: graysc=
+ale;}
+    html, body {margin: 0; padding: 0;}
+    body {margin: 0 auto!important; padding: 0; font-family: Arial, sans-se=
+rif; -webkit-text-size-adjust: 100%!important; -ms-text-size-adjust: 100%!i=
+mportant; -webkit-font-smoothing: antialiased!important;}
+    .mktoText a, .mktoSnippet a, a:link, a:visited {color: #FF3621; text-de=
+coration: none; font-weight:600;}
+    a[x-apple-data-detectors] {color: inherit!important; text-decoration: n=
+one!important; font-size: inherit!important; font-family: inherit!important=
+; font-weight: inherit!important; line-height: inherit!important;}
+    img {border: 0!important; outline: none!important;}
+    table {border-spacing: 0; mso-table-lspace: 0px; mso-table-rspace: 0px;=
+}
+    th {margin: 0; padding: 0;font-weight: normal;}
+    div,td,a,span {mso-line-height-rule: exactly;}
+    ul {margin: 0; padding: 0; padding-left: 20px; margin-left: 20px;}
+    li {margin: 0; padding-top: 0px; margin-top: 0px;}
+    [owa] .col, .col {display: table-cell!important;}
+
+    @media only screen and (max-width:599px) {
+      .mob-center {margin: 0px auto!important; float: none!important;}
+      .mob-full {min-width: 100%!important; width: 100%!important; height: =
+auto!important;}
+      .img-full {width:100%!important; height:auto!important;}
+      .col {display: block!important;}
+      .mob-text-left {text-align: left!important;}
+      .mob-text-center {text-align: center!important;}
+      .mob-text-right {text-align: right!important;}
+      .mob-align-left {margin-right: auto!important; float: none!important;=
+}
+      .mob-align-center {margin: 0 auto!important; float: none!important;}
+      .mob-align-right {margin-left: auto!important; float: none!important;=
+}
+      .mob-hide {display:none!important; visibility: hidden!important;}
+    }
+
+    @media yahoo {
+      * {overflow: visible!important;}
+      .y-overflow-hidden {overflow: hidden!important;}
+    }
+  </style>=20
+<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPer=
+Inch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->=20
+<!--[if (gte mso 9)|(IE)]><style type=3D"text/css">
+    li {text-indent: -1.3em;margin-left: 1.5em !important;}
+    a,p,span,div,td,table,div,.mktoText,.mktoSnippet {font-family:Arial, He=
+lvetica, sans-serif !important;}
+    </style><![endif]-->=20
+</head>=20
+<body class=3D"body" style=3D"background-color:#E9E9E9;"><style type=3D"tex=
+t/css">div#emailPreHeader{ display: none !important; }</style><div id=3D"em=
+ailPreHeader" style=3D"mso-hide:all; visibility:hidden; opacity:0; color:tr=
+ansparent; mso-line-height-rule:exactly; line-height:0; font-size:0px; over=
+flow:hidden; border-width:0; display:none !important;">Thank you for regist=
+ering for Building Reliable Data Lakes With Delta Lake | Virtual Guided Wor=
+kshop on Wednesday, 9 December 2020  at 1:00 PM - 3:00 PM Singapore | 10:30=
+ AM - 12:30 PM Mumbai. To join this webinar, click the link below:</div>=20
+<div style=3D"background-color:#E9E9E9; table-layout: fixed; -webkit-text-s=
+ize-adjust:100%; -ms-text-size-adjust:100%; width:100%; vertical-align:top;=
+">=20
+<table class=3D"mob-full mktoContainer" id=3D"mainTable" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"width:600px; overflow:visible; marg=
+in:0 auto; vertical-align:middle;" valign=3D"middle" align=3D"center">
+<tr class=3D"mktoModule" id=3D"vib">=20
+<td style=3D"background-color:#E9E9E9;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:20px; paddi=
+ng-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoText" id=3D"vib.psm" style=3D"font-family:'Barlow', Arial=
+, Helvetica, sans-serif; font-size:12px; line-height:18px; font-weight:norm=
+al; text-align:right; color:#000000;">=20
+<a href=3D"https://pages.databricks.com/index.php/email/emailWebview?mkt_to=
+k=3DeyJpIjoiWXpRMFpURmlaVE5qWmpsbSIsInQiOiJpdHBEcG1pc2ZVRElMQnRsbVVrMXNOSnp=
+jdlR0WnFydjBkUkNhdlJib3BCTGtwUVR2bktVWFdqOGp5KzhiUUl4V1dpT0ZyeGc5Sm1SWjZXRE=
+VUQmZrYXh6RmtRVEZuUGp2bzNHbGd3SjZBZG9RSm5Kb2JBbU1YNVhqK1ZqcklrNCJ9&aliId=3D=
+j0hYdsLILgkK7CMcgpHzWtuT9ku2EuLW1dgSdpuNs7lJtzsFEouvQw%3D%3D" target=3D"_bl=
+ank" style=3D"color:#888888; text-decoration:underline;">View in Browser</a=
+>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"image-a8b3fe5d5-a978-47f9-96a2-e8bdf4486859"=
+>=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:0px; padding-right:0px; padding-top:0px; padding-=
+bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"image-a.img8b3fe5d5-a978-47f9-96a2-e8bdf448685=
+9" mktolockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/dc/kvtpV3WYob2etSFEoxuDGP82fffHiYlqkCwdw7c6uGa=
+3tKiHHsiwbpESxJ-aA1pnWCGl1AATNpGvbDFP8jD_LQ4ODqPcfm510u4fCETSNR73bSGRItoNiU=
+JXl_vbEQv4/wM4SCPoYh00004No00u020f" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/2020-11-Gui=
+ded-workshop--Building-Reliable-Data-Lakes-With-Delta-Lake-Email-Header.jpg=
+" width=3D"600" alt=3D"Building Reliable Data Lakes With Delta Lake | Virtu=
+al Guided Workshop" class=3D"img-full" style=3D"display:block;" /></a>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"date-time-a42a7b7b1-7f4c-48af-87f2-b3e8a8c95=
+f6c">=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:20px; paddi=
+ng-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center">=20
+<table class=3D"mob-full" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=
+=20
+<tbody>=20
+<tr>=20
+<td style=3D"width:200px; vertical-align:top;" valign=3D"top">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%; direction:ltr;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<!--[if IE | mso]><!-- -->=20
+<tbody>=20
+<tr style=3D"display:noneIE | important;">=20
+<td style=3D"height:60px; padding-left:10px;">=20
+<center>=20
+<img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_c=
+al.png" alt=3D"Date" width=3D"50" style=3D"display:block; max-width:100%; h=
+eight:auto;" border=3D"0" />=20
+</center>=20
+<div style=3D"line-height:10px; height:10px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+<!--[if IE | mso]><!-- -->=20
+<tr style=3D"display:noneIE | important;">=20
+<td>=20
+<div class=3D"mktoText" id=3D"date-time-a.date42a7b7b1-7f4c-48af-87f2-b3e8a=
+8c95f6c" style=3D"font-family:'Barlow', Arial, Helvetica, sans-serif; font-=
+size:14px; line-height:18px; font-weight:normal; text-align:center; color:#=
+000000;">
+ Wednesday, 9 December 2020 =20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+<td style=3D"width:20px; min-width:20px; font-size:0px; vertical-align:top;=
+" valign=3D"top">&nbsp;</td>=20
+<td style=3D"width:1px; min-width:1px; vertical-align:top; background-color=
+:#E0E0E0;" valign=3D"top">=20
+<div style=3D"line-height:1px; height:1px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+<td style=3D"width:20px; min-width:20px; font-size:0px; vertical-align:top;=
+" valign=3D"top">&nbsp;</td>=20
+<td style=3D"width:200px; vertical-align:top;" valign=3D"top">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%; direction:ltr;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<!--[if IE | mso]><!-- -->=20
+<tbody>=20
+<tr style=3D"display:noneIE | important;">=20
+<td style=3D"height:60px;">=20
+<center>=20
+<img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_t=
+ime.png" alt=3D"Time" width=3D"50" style=3D"display:block; max-width:100%; =
+height:auto;" border=3D"0" />=20
+</center>=20
+<div style=3D"line-height:10px; height:10px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+<!--[if IE | mso]><!-- -->=20
+<tr style=3D"display:noneIE | important;">=20
+<td>=20
+<div class=3D"mktoText" id=3D"date-time-a.time42a7b7b1-7f4c-48af-87f2-b3e8a=
+8c95f6c" style=3D"font-family:'Barlow', Arial, Helvetica, sans-serif; font-=
+size:14px; line-height:18px; font-weight:normal; text-align:center; color:#=
+000000;">
+ 1:00 PM - 3:00 PM Singapore | 10:30 AM - 12:30 PM Mumbai=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"paragraph0afe9511-539b-4037-9de5-301a174e01d=
+9">=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:0px; paddin=
+g-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoText mob-text-left" id=3D"paragraph.p0afe9511-539b-4037-9=
+de5-301a174e01d9" style=3D"font-family:'Barlow', Arial, Helvetica, sans-ser=
+if; font-size:14px; line-height:18px; font-weight:normal; text-align:left; =
+color:#000000;">
+ Hi Appan,=20
+<br />=20
+<br />Thank you for registering for Building Reliable Data Lakes With Delta=
+ Lake | Virtual Guided Workshop on Wednesday, 9 December 2020  at 1:00 PM -=
+ 3:00 PM Singapore | 10:30 AM - 12:30 PM Mumbai. To join this webinar, clic=
+k the link below:=20
+<br />=20
+<br />We will use the Databricks Community Edition for the lab exercises. T=
+o prepare for the lab please create an account for yourself (no credit card=
+ required).=20
+<br />=20
+<br />Also, if you would like to familiarize yourself with the lab, please =
+check out the=20
+<a href=3D
+"https://info.databricks.com/lfMup000hN440S0oP0C030Y" target=3D"_blank" id=
+=3D""
+>handout</a> and the two notebooks (=20
+<a href=3D
+"https://info.databricks.com/GNM0Sf004qP4Y0oh00004Cu" target=3D"_blank" id=
+=3D""
+>Data Preparation With Delta Lake</a> and=20
+<a href=3D
+"https://info.databricks.com/TrCYf040N0004M500hPuoS0" target=3D"_blank" id=
+=3D""
+>Evaluate Risk on Loan Approvals</a>) that will be used at the event.=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"cta-a38400b02-3a96-4735-98d1-f3ced1ccd2fc">=
+=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:0px; paddin=
+g-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center">=20
+<table class=3D"mob-align-center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"width:174px;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"margin-left:10px; margin-right:10px; margin-top:12px; margin-b=
+ottom:12px; background-color:#FF3621; border:0px solid #FF3621; border-radi=
+us:28px;">=20
+<div class=3D"mktoText" id=3D"cta-a.cta38400b02-3a96-4735-98d1-f3ced1ccd2fc=
+" style=3D"font-family:'Barlow', Arial, Helvetica, sans-serif; font-size:14=
+px; font-weight:600; text-align:center;">=20
+<strong><a href=3D
+"https://info.databricks.com/dc/kvtpV3WYob2etSFEoxuDGP82fffHiYlqkCwdw7c6uGa=
+3tKiHHsiwbpESxJ-aA1pnWCGl1AATNpGvbDFP8jD_LQ4ODqPcfm510u4fCETSNR73bSGRItoNiU=
+JXl_vbEQv4/wM4SCPoYh00004No00u020f" target=3D"_blank" style=3D"color: #ffff=
+ff; text-decoration: none; display: block; padding: 12px 10px; text-align: =
+center;"
+>JOIN WEBINAR</a></strong>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"paragraphbd4b643b-8146-4a02-992c-f26dea7c41c=
+1">=20
+<td style=3D"background-color:#FFFFFF;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:0px; paddin=
+g-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoText mob-text-left" id=3D"paragraph.pbd4b643b-8146-4a02-9=
+92c-f26dea7c41c1" style=3D"font-family:'Barlow', Arial, Helvetica, sans-ser=
+if; font-size:14px; line-height:18px; font-weight:normal; text-align:left; =
+color:#000000;">
+ To add this webinar to your calendar, please click here:&nbsp;&nbsp;
+                                                               =20
+
+
+ =20
+ =20
+
+
+
+
+<a href=3D"https://ics.agical.io/?subject=3DBuilding+Reliable+Data+Lakes+Wi=
+th+Delta+Lake+%7C+Databricks+Guided+Workshop&organizer=3DDatabricks+APAC+Te=
+am&reminder=3D15&dtstart=3D2020-12-09T13%3A00%3A00%2B0800&dtend=3D2020-12-0=
+9T15%3A00%3A00%2B0800&attach=3Dhttps%3A%2F%2Fpages.databricks.com%2F202012-=
+APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.html&location=3Dhttps%3A%2F%2Fp=
+ages.databricks.com%2F202012-APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.ht=
+ml&description=3DThank+you+for+registering+for+Building+Reliable+Data+Lakes=
++With+Delta+Lake+%7C+Databricks+Guided+Workshop.+%0ATo+join+this+webinar%2C=
++click+the+link+below%3A%0A%0Ahttps%3A%2F%2Fpages.databricks.com%2F202012-A=
+PJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.html" target=3D"_blank" class=3D=
+"atc-outlook">Outlook</a> | <a href=3D"https://ics.agical.io/?subject=3DBui=
+lding+Reliable+Data+Lakes+With+Delta+Lake+%7C+Databricks+Guided+Workshop&or=
+ganizer=3DDatabricks+APAC+Team&reminder=3D15&dtstart=3D2020-12-09T13%3A00%3=
+A00%2B0800&dtend=3D2020-12-09T15%3A00%3A00%2B0800&attach=3Dhttps%3A%2F%2Fpa=
+ges.databricks.com%2F202012-APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.htm=
+l&location=3Dhttps%3A%2F%2Fpages.databricks.com%2F202012-APJ-AI-EV-VirtualD=
+eltaLakeWorkshop_00.Lobby.html&description=3DThank+you+for+registering+for+=
+Building+Reliable+Data+Lakes+With+Delta+Lake+%7C+Databricks+Guided+Workshop=
+.+%0ATo+join+this+webinar%2C+click+the+link+below%3A%0A%0Ahttps%3A%2F%2Fpag=
+es.databricks.com%2F202012-APJ-AI-EV-VirtualDeltaLakeWorkshop_00.Lobby.html=
+&format=3Dgcal" target=3D"_blank" class=3D"atc-gcal">Google Calendar</a>=20
+<br />=20
+<br />If you have any questions at all, please don=E2=80=99t hesitate to em=
+ail us at=20
+<a href=3D
+"https://info.databricks.com/p0P00Y0NsS0u06CMoh044f0" target=3D"_blank" id=
+=3D""
+>events@databricks.com</a>.=20
+<br />=20
+<br />Note: this link should not be shared with others; it is unique to you=
+.=20
+<a href=3D
+"https://info.databricks.com/dcn/iqoSFi8gRxN3bjGZEDn90EjHxqOFCR2NzPdiA0JFHd=
+XiYZFVHkTHeRmu-zd5U2Fl1ZNRXg3Zk5plHkEYuErapQ=3D=3D/wM4SCPoYh00004No00u020f"=
+ target=3D"_blank" class=3D"mktNoTok"
+>Share this event with your colleagues</a>.=20
+<br />=20
+<br />Enjoy the webinar!=20
+<br />=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+<tr class=3D"mktoModule" id=3D"footer-a">=20
+<td style=3D"background-color:#E9E9E9;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding-left:20px; padding-right:20px; padding-top:20px; paddi=
+ng-bottom:20px;">=20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"min-width:100%;">=20
+<!--[if IE | mso]><!-- -->=20
+<tbody>=20
+<tr style=3D"display:noneIE | important;">=20
+<td align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"footer-a.social-1" mktolockimgsize=3D"true" mk=
+tolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/Xoh04tM0C000SfP4u00NY70" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_=
+twitter.png" width=3D"28" alt=3D"Twitter" style=3D"display:block;" /></a>=
+=20
+</div> </td>=20
+<td width=3D"8" style=3D"width:8px; min-width:8px; font-size:0px;">&nbsp;</=
+td>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"footer-a.social-2" mktolockimgsize=3D"true" mk=
+tolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/b0000oMhfY80S4Nu000u4PC" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_=
+linkedin.png" width=3D"28" alt=3D"LinkedIn" style=3D"display:block;" /></a>=
+=20
+</div> </td>=20
+<td width=3D"8" style=3D"width:8px; min-width:8px; font-size:0px;">&nbsp;</=
+td>=20
+<td>=20
+<div class=3D"mktoImg" id=3D"footer-a.social-3" mktolockimgsize=3D"true" mk=
+tolockimgstyle=3D"true">=20
+<a href=3D
+"https://info.databricks.com/CM400v09h0fY0Co40u0NS0P" target=3D"_blank"
+><img src=3D"https://pages.databricks.com/rs/094-YMS-629/images/flex_em_db_=
+facebook.png" width=3D"28" alt=3D"Facebook" style=3D"display:block;" /></a>=
+=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<div style=3D"line-height:20px; height:20px; font-size:0px;">
+ &nbsp;=20
+</div> </td>=20
+</tr>=20
+<!--<![endif]-->=20
+<tr>=20
+<td>=20
+<div class=3D"mktoSnippet" id=3D"footer-a.snippet" style=3D"font-family:'Ba=
+rlow', Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; font=
+-weight:normal; text-align:center; color:#000000;">=20
+<strong>Databricks <br /> <a href=3D
+"https://info.databricks.com/b0000oMhfYa0S4Nw000u4PC" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none;"
+>160 Spear St 13th floor, San&nbsp;Francisco,&nbsp;CA&nbsp;94105</a> </stro=
+ng>=20
+<br />=20
+<br /> This email was sent to=20
+<a href=3D
+"https://info.databricks.com/dc/0G9PGmVj-9ksTR78TmQfLO2ghW6V9dleLYsSn4k7Khs=
+=3D/wM4SCPoYh00004No00u020f" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none; font-weight: normal;"
+>appanponn@whatsbrew.in</a>, if you no longer want to receive emails,=20
+<a href=3D"https://pages.databricks.com/UnsubscribePage.html?mkt_unsubscrib=
+e=3D1&mkt_tok=3DeyJpIjoiWXpRMFpURmlaVE5qWmpsbSIsInQiOiJpdHBEcG1pc2ZVRElMQnR=
+sbVVrMXNOSnpjdlR0WnFydjBkUkNhdlJib3BCTGtwUVR2bktVWFdqOGp5KzhiUUl4V1dpT0ZyeG=
+c5Sm1SWjZXREVUQmZrYXh6RmtRVEZuUGp2bzNHbGd3SjZBZG9RSm5Kb2JBbU1YNVhqK1ZqcklrN=
+CJ9" target=3D"_blank">unsubscribe here</a>.=20
+<p>=C2=A9 Databricks 2020. All rights reserved. Apache, Apache Spark, Spark=
+ and the&nbsp;<br />Spark logo=20
+<g id=3D"18" data-gr-id=3D"18">
+ are=20
+</g> trademarks of the&nbsp;<a href=3D
+"https://info.databricks.com/do0h4NbCfu0S400MPx000Y0" target=3D"_blank"
+>Apache Software Foundation.</a></p>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>
+</table>=20
+</div> =20
+
+<img src=3D"https://info.databricks.com/trk?t=3D1&mid=3DMDk0LVlNUy02Mjk6MDo=
+yMjAyOToyNTYwMzM6MDoyODc1Nzo5OjM4MjkwOjEyMjcwMzAwLTE6bnVsbA%3D%3D" width=3D=
+"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+</body>
+</html>
+------=_Part_23619362_1718999686.1607428849336--

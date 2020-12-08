@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0660)https://2382028.fls.doubleclick.net/activityi;dc_pre=CIX4mP6tvu0CFcXMfAodgF8NyA;src=2382028;type=brows0;cat=sf-un0;ord=6929047191138;gtm=2wgbu0;gac=UA-45076517-13%3ACj0KCQjwtsv7BRCmARIsANu-CQflhMJAzWWodyoEUEVOGidOw94J0RJ9S7SpripR_hEzJVYoLYkeCeYaApIMEALw_wcB;auiddc=573651794.1599675805;u1=%2Fau%2Fform%2Fevents%2Fwebinars%2Fform-rss%2F2868736%2F;~oref=https%3A%2F%2Fwww.salesforce.com%2Fau%2Fform%2Fevents%2Fwebinars%2Fform-rss%2F2868736%2F%3Fd%3D7013y000002YnxJAAS%26nc%3D7013y000002YnxEAAS%26eid%3DWebinar-Service%26utm_source%3DWebinar%26utm_medium%3Demail%26utm_campaign%3DIN-Svc-Service%26utm_content%3DAll-rego-7013y000002YnxJAAS%26utm_medium%3Demail%26? -->
+<html><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function(namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  let open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method) {
+    this.addEventListener('readystatechange', function() {
+      if (this.readyState === 4 && window[namespace].responseRules.hasOwnProperty(this.responseURL)) {
+        const responseRule = window[namespace].responseRules[this.responseURL];
+        const {response, id} = responseRule;
+        const responseType = this.responseType;
+        let customResponse;
+
+        customResponse = response.type === 'code' ? responseRule.evaluator({
+            method,
+            url: this.responseURL,
+            requestHeaders: this.requestHeaders,
+            requestData: this.requestData,
+            responseType: this.responseType,
+            response: this.response
+          }) : response.value;
+
+        Object.defineProperty(this, 'response', {
+          get: function () {
+            if (response.type === 'static' && responseType === 'json') {
+              return JSON.parse(customResponse);
+            }
+            return customResponse;
+          }
+        });
+
+        if (responseType === '' || responseType === 'text') {
+          Object.defineProperty(this, 'responseText', {
+            get: function () {
+              return customResponse;
+            }
+          });
+        }
+
+        window.postMessage({
+          from: 'requestly',
+          type: 'response_rule_applied',
+          id
+        }, window.location.href);
+      }
+    }, false);
+    open.apply(this, arguments);
+  };
+
+  let send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function(data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  }
+})('__REQUESTLY__')</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title></title></head><body style="background-color: transparent"><!-- Google Code for SF -  Universal RTG Tag Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 955141293;
+var google_conversion_label = "bXvTCNu6qrYBEK2ZuccD";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./f.txt">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/955141293/?label=bXvTCNu6qrYBEK2ZuccD&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript><img src="./dc_pre=CIX4mP6tvu0CFcXMfAodgF8NyA"></body><script src="./f(1).txt"></script></html>
